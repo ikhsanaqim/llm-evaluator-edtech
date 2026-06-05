@@ -1,0 +1,128 @@
+[
+  {
+    "question_id": "MTK-SD-001",
+    "subject": "Matematika",
+    "level": "SD",
+    "model_key": "gpt-oss-120b",
+    "n_repeats": 3,
+    "temperature": 0.3,
+    "responses": [
+      "**Diketahui**  \n- Panjang (p) = 12 cm  \n- Lebar (l) = 8 cm  \n\n### 1. Menghitung luas\nLuas persegi panjang = panjang × lebar  \n\n\\[\n\\text{Luas}= p \\times l = 12 \\text{ cm} \\times 8 \\text{ cm}= 96 \\text{ cm}^2\n\\]\n\n### 2. Menghitung keliling\nKeliling persegi panjang = 2 × (panjang + lebar)  \n\n\\[\n\\text{Keliling}= 2(p+l)=2(12\\text{ cm}+8\\text{ cm})=2(20\\text{ cm})=40\\text{ cm}\n\\]\n\n---\n\n**Jawaban:**  \n- Luas = **96 cm²**  \n- Keliling = **40 cm**",
+      "**Diketahui**\n- Panjang (p) = 12 cm  \n- Lebar (l) = 8 cm  \n\n---\n\n## 1. Menghitung Luas\n\nRumus luas persegi panjang:  \n\n\\[\n\\text{Luas} = p \\times l\n\\]\n\n\\[\n\\text{Luas} = 12 \\text{ cm} \\times 8 \\text{ cm} = 96 \\text{ cm}^2\n\\]\n\n**Jadi, luasnya = 96 cm².**\n\n---\n\n## 2. Menghitung Keliling\n\nRumus keliling persegi panjang:  \n\n\\[\n\\text{Keliling} = 2(p + l)\n\\]\n\n\\[\n\\text{Keliling} = 2(12 \\text{ cm} + 8 \\text{ cm}) = 2(20 \\text{ cm}) = 40 \\text{ cm}\n\\]\n\n**Jadi, kelilingnya = 40 cm.**\n\n---\n\n### Ringkasan\n- **Luas** = 96 cm²  \n- **Keliling** = 40 cm  \n\nSemoga membantu! Jika ada pertanyaan lain, silakan tanya.",
+      "**Diketahui**\n- Panjang (p) = 12 cm  \n- Lebar (l) = 8 cm  \n\n---\n\n## 1. Menghitung luas\n\nLuas persegi panjang = panjang × lebar  \n\n\\[\n\\text{Luas} = p \\times l = 12 \\text{ cm} \\times 8 \\text{ cm} = 96 \\text{ cm}^2\n\\]\n\nJadi, **luasnya 96 cm²**.\n\n---\n\n## 2. Menghitung keliling\n\nKeliling persegi panjang = 2 × (panjang + lebar)  \n\n\\[\n\\text{Keliling} = 2 \\times (p + l) = 2 \\times (12 \\text{ cm} + 8 \\text{ cm}) = 2 \\times 20 \\text{ cm} = 40 \\text{ cm}\n\\]\n\nJadi, **kelilingnya 40 cm**.\n\n---\n\n### Ringkasan\n- **Luas** : 96 cm²  \n- **Keliling** : 40 cm  \n\nSemoga membantu! Jika ada pertanyaan lain, silakan tanya."
+    ],
+    "latencies_ms": [
+      9454,
+      10069,
+      7159
+    ],
+    "consistency": {
+      "consistency_score": 1.0,
+      "valid_responses": 3,
+      "numeric_consistency": 1.0,
+      "concept_consistency": 1.0,
+      "length_variance_pct": 18.5,
+      "word_counts": [
+        74,
+        110,
+        116
+      ],
+      "common_numbers": [
+        "1",
+        "12",
+        "2",
+        "20",
+        "40",
+        "8",
+        "96"
+      ],
+      "common_concepts": [
+        "keliling persegi panjang",
+        "luas persegi panjang"
+      ],
+      "reasoning": "Numbers: 7/7 consistent. Concepts: 2/2 consistent. Length variance: 18.5%."
+    }
+  },
+  {
+    "question_id": "MTK-SMP-002",
+    "subject": "Matematika",
+    "level": "SMP",
+    "model_key": "gpt-oss-120b",
+    "n_repeats": 3,
+    "temperature": 0.3,
+    "responses": [
+      "**Langkah‑langkah menyelesaikan soal**\n\n1. **Kenali sisi‑sisinya**  \n   Pada segitiga siku‑siku, dua sisi yang membentuk sudut 90° disebut **sisi tegak** (atau kathete).  \n   - Sisi pertama = 6 cm  \n   - Sisi kedua = 8 cm  \n\n2. **Gunakan rumus Pythagoras**  \n\n\\[\n\\text{hipotenusa}^2 = (\\text{sisi tegak}_1)^2 + (\\text{sisi tegak}_2)^2\n\\]\n\n\\[\nc^2 = 6^2 + 8^2\n\\]\n\n3. **Hitung kuadrat masing‑masing**  \n\n\\[\n6^2 = 36,\\qquad 8^2 = 64\n\\]\n\n\\[\nc^2 = 36 + 64 = 100\n\\]\n\n4. **Ambil akar kuadrat**  \n\n\\[\nc = \\sqrt{100} = 10\n\\]\n\n5. **Tuliskan jawabannya**  \n\n\\[\n\\boxed{10\\ \\text{cm}}\n\\]\n\nJadi, panjang hipotenusa segitiga siku‑siku tersebut adalah **10 cm**.",
+      "**Penyelesaian dengan Teorema Pythagoras**\n\nUntuk segitiga siku‑siku, hubungan antara sisi‑sisi (a, b) dan hipotenusa (c) adalah  \n\n\\[\nc^{2}=a^{2}+b^{2}\n\\]\n\nDiketahui:  \n\n- Sisi tegak pertama \\(a = 6\\ \\text{cm}\\)  \n- Sisi tegak kedua \\(b = 8\\ \\text{cm}\\)\n\nHitung:\n\n\\[\n\\begin{aligned}\nc^{2} &= 6^{2}+8^{2} \\\\\n      &= 36 + 64 \\\\\n      &= 100\n\\end{aligned}\n\\]\n\nMaka panjang hipotenusa:\n\n\\[\nc = \\sqrt{100}=10\\ \\text{cm}\n\\]\n\n---\n\n**Jawaban:** Panjang hipotenusanya adalah **10 cm**.",
+      "**Penyelesaian dengan Teorema Pythagoras**\n\nUntuk segitiga siku‑siku, hubungan antara sisi‑sisi (a, b) dan hipotenusa (c) adalah  \n\n\\[\nc^{2}=a^{2}+b^{2}\n\\]\n\nDiketahui:  \n- Sisi tegak pertama \\(a = 6 \\text{ cm}\\)  \n- Sisi tegak kedua \\(b = 8 \\text{ cm}\\)\n\nHitung:\n\n\\[\n\\begin{aligned}\nc^{2} &= 6^{2}+8^{2} \\\\\n      &= 36 + 64 \\\\\n      &= 100\n\\end{aligned}\n\\]\n\nAmbil akar kuadrat:\n\n\\[\nc = \\sqrt{100}=10 \\text{ cm}\n\\]\n\n---\n\n**Jawaban:** Panjang hipotenusa = **10 cm**."
+    ],
+    "latencies_ms": [
+      9531,
+      6241,
+      6291
+    ],
+    "consistency": {
+      "consistency_score": 0.462,
+      "valid_responses": 3,
+      "numeric_consistency": 0.583,
+      "concept_consistency": 0.0,
+      "length_variance_pct": 18.1,
+      "word_counts": [
+        100,
+        68,
+        71
+      ],
+      "common_numbers": [
+        "10",
+        "100",
+        "2",
+        "36",
+        "6",
+        "64",
+        "8"
+      ],
+      "common_concepts": [],
+      "reasoning": "Numbers: 7/12 consistent. Concepts: 0/1 consistent. Length variance: 18.1%."
+    }
+  },
+  {
+    "question_id": "IPA-SD-002",
+    "subject": "IPA",
+    "level": "SD",
+    "model_key": "gpt-oss-120b",
+    "n_repeats": 3,
+    "temperature": 0.3,
+    "responses": [
+      "**Fotosintesis** adalah proses kimia yang terjadi pada tumbuhan (dan beberapa mikroorganisme) untuk mengubah energi cahaya matahari menjadi energi kimia berupa gula (karbohidrat). Pada proses ini, tumbuhan mengambil karbon dioksida (CO₂) dari udara dan air (H₂O) dari akar, kemudian dengan bantuan cahaya matahari menghasilkan glukosa (C₆H₁₂O₆) dan oksigen (O₂). Persamaan umum fotosintesis dapat dituliskan sebagai:\n\n\\[\n6 \\text{CO}_2 + 6 \\text{H}_2\\text{O} \\xrightarrow{\\text{cahaya}} \\text{C}_6\\text{H}_{12}\\text{O}_6 + 6 \\text{O}_2\n\\]\n\n---\n\n### Bahan‑bahan yang dibutuhkan tumbuhan untuk fotosintesis\n\n| Bahan | Fungsi | Sumber |\n|-------|--------|--------|\n| **Cahaya matahari** | Energi yang diperlukan untuk menggerakkan reaksi kimia (terutama pada pigmen klorofil). | Sinar matahari (atau lampu buatan dengan spektrum yang tepat). |\n| **Karbon dioksida (CO₂)** | Sumber karbon untuk membentuk gula. | Diambil dari udara melalui stomata (lubang‑lubang kecil pada daun). |\n| **Air (H₂O)** | Penyedia elektron dan ion hidrogen; juga membantu menjaga turgor sel. | Diserap oleh akar dari tanah. |\n| **Klorofil** (pigmen hijau) | Menangkap energi cahaya dan mengubahnya menjadi energi kimia. | Terdapat di dalam kloroplas, organel khusus pada sel tumbuhan. |\n| **Nutrisi mineral** (misalnya magnesium, besi, nitrogen) | Membantu fungsi enzim dan struktur klorofil serta proses metabolik lainnya. | Diambil dari tanah melalui akar. |\n\n**Catatan penting:**  \n- **Kloroplas** adalah organel tempat fotosintesis berlangsung. Di dalamnya terdapat tilakoid yang berisi klorofil.  \n- **Stomata** mengatur masuk‑keluarnya CO₂ dan O₂ serta mengontrol kehilangan air (transpirasi).  \n\nDengan semua komponen di atas, tumbuhan dapat menghasilkan makanan sendiri (glukosa) dan sekaligus menghasilkan oksigen yang penting bagi makhluk hidup lain.",
+      "**Fotosintesis** adalah proses biokimia yang terjadi pada tumbuhan (serta beberapa alga dan bakteri) untuk mengubah energi cahaya matahari menjadi energi kimia berupa glukosa (gula). Pada proses ini, tumbuhan mengambil karbon dioksida (CO₂) dari udara dan air (H₂O) dari akar, kemudian dengan bantuan cahaya matahari menghasilkan glukosa dan oksigen (O₂). Persamaan umum fotosintesis dapat dituliskan sebagai:\n\n\\[\n6 \\text{CO}_2 + 6 \\text{H}_2\\text{O} \\xrightarrow{\\text{cahaya}} \\text{C}_6\\text{H}_{12}\\text{O}_6 + 6 \\text{O}_2\n\\]\n\n---\n\n## Bahan‑bahan yang Diperlukan Tumbuhan untuk Fotosintesis\n\n| Bahan | Fungsi | Sumber |\n|-------|--------|--------|\n| **Cahaya matahari** | Menyediakan energi untuk menggerakkan reaksi kimia (terutama pada kloroplas). | Sinar matahari atau sumber cahaya buatan (lampu tumbuh). |\n| **Karbon dioksida (CO₂)** | Menyumbang atom karbon untuk pembentukan glukosa. | Diambil dari udara melalui stomata (lubang kecil pada daun). |\n| **Air (H₂O)** | Menyumbang atom hidrogen dan oksigen; juga berperan dalam transportasi nutrisi. | Diserap oleh akar dari tanah. |\n| **Klorofil** (pigmen hijau) | Menangkap energi cahaya dan mengubahnya menjadi energi kimia. | Terdapat dalam kloroplas daun dan bagian hijau lainnya. |\n| **Nutrisi mineral** (misalnya N, Mg, Fe) | Membantu sintesis klorofil dan enzim‑enzim yang terlibat dalam fotosintesis. | Diambil dari tanah melalui akar. |\n| **Suhu yang sesuai** | Memengaruhi laju reaksi enzimatik. | Idealnya antara 20‑30 °C untuk kebanyakan tumbuhan. |\n| **pH dan Kelembaban** | Menjaga keseimbangan ion dan kestabilan enzim. | pH tanah sekitar 6‑7, kelembaban cukup untuk menjaga aliran air. |\n\n### Ringkasan Langkah‑langkah Fotosintesis\n1. **Penyerapan cahaya** – Klorofil dalam tilakoid kloroplas menyerap foton.\n2. **Pemecahan air (fotolisis)** – Energi cahaya memecah H₂O menjadi O₂, proton (H⁺), dan elektron.\n3. **Transport elektron** – Elektron mengalir melalui rantai transportasi elektron, menghasilkan ATP dan NADPH (energi kimia).\n4. **Pengikatan karbon (siklus Calvin)** – CO₂ diikat dengan bantuan ATP dan NADPH untuk membentuk glukosa.\n5. **Pelepasan oksigen** – O₂ yang terbentuk dari fotolisis air dilepaskan ke atmosfer melalui stomata.\n\nDengan memahami apa itu fotosintesis dan bahan‑bahan yang diperlukan, kita dapat lebih menghargai peran penting tumbuhan dalam menghasilkan makanan dan oksigen bagi makhluk hidup lainnya.",
+      "**Fotosintesis** adalah proses kimia yang dilakukan oleh tumbuhan (serta alga dan beberapa bakteri) untuk mengubah energi cahaya matahari menjadi energi kimia berupa gula (karbohidrat). Pada proses ini, tumbuhan mengambil karbon dioksida (CO₂) dari udara dan air (H₂O) dari tanah, kemudian menghasilkan glukosa (C₆H₁₂O₆) dan oksigen (O₂) sebagai produk samping. Persamaan kimia sederhana fotosintesis dapat dituliskan sebagai:\n\n\\[\n6 \\text{CO}_2 + 6 \\text{H}_2\\text{O} \\xrightarrow{\\text{cahaya}} \\text{C}_6\\text{H}_{12}\\text{O}_6 + 6 \\text{O}_2\n\\]\n\n---\n\n## Apa saja yang dibutuhkan tumbuhan untuk melakukan fotosintesis?\n\n| Komponen | Fungsi | Keterangan |\n|----------|--------|------------|\n| **Cahaya (energi matahari)** | Menyediakan energi untuk menggerakkan reaksi kimia | Pigmen hijau (klorofil) di dalam kloroplas menyerap cahaya, terutama pada panjang gelombang biru (≈450 nm) dan merah (≈680 nm). |\n| **Karbon dioksida (CO₂)** | Sumber karbon untuk membentuk gula | Diambil dari udara melalui stomata (lubang kecil pada daun). |\n| **Air (H₂O)** | Sumber elektron dan hidrogen; juga membantu menjaga turgor sel | Diserap akar dari tanah, lalu naik melalui xilem ke daun. |\n| **Kloroplas** | Organela tempat terjadinya fotosintesis | Mengandung membran tilakoid (tempat reaksi terang) dan stroma (tempat siklus Calvin). |\n| **Klorofil** | Pigmen utama yang menyerap cahaya | Memberi warna hijau pada tumbuhan; terdapat dalam tilakoid. |\n| **Nutrisi mineral** (misalnya magnesium, besi, nitrogen) | Membantu fungsi enzim dan struktur klorofil | Magnesium berada di pusat molekul klorofil; besi diperlukan untuk pembentukan kloroplas. |\n| **Suhu yang sesuai** | Mempercepat laju reaksi kimia | Kebanyakan tumbuhan optimal pada 20‑30 °C; suhu terlalu tinggi atau rendah dapat menurunkan efisiensi fotosintesis. |\n| **Oksigen (O₂)** | Produk samping, bukan kebutuhan, tetapi penting untuk respirasi sel | Dikeluarkan melalui stomata ke atmosfer. |\n\n### Ringkasnya\nAgar fotosintesis dapat berlangsung, tumbuhan memerlukan **cahaya**, **karbon dioksida**, **air**, serta **struktur seluler khusus (kloroplas dengan klorofil)** dan **nutrisi mineral** yang mendukung fungsi enzimatik. Tanpa salah satu komponen tersebut, proses fotosintesis akan terhambat atau tidak terjadi sama sekali."
+    ],
+    "latencies_ms": [
+      16910,
+      16744,
+      18651
+    ],
+    "consistency": {
+      "consistency_score": 0.625,
+      "valid_responses": 3,
+      "numeric_consistency": 0.167,
+      "concept_consistency": 1.0,
+      "length_variance_pct": 12.7,
+      "word_counts": [
+        248,
+        338,
+        315
+      ],
+      "common_numbers": [
+        "12",
+        "6"
+      ],
+      "common_concepts": [
+        "air",
+        "cahaya matahari",
+        "fotosintesis",
+        "klorofil"
+      ],
+      "reasoning": "Numbers: 2/12 consistent. Concepts: 4/4 consistent. Length variance: 12.7%."
+    }
+  }
+]

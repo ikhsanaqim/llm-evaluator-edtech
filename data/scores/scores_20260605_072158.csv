@@ -1,0 +1,9 @@
+question_id,subject,level,grade,model_key,composite_auto_score,accuracy_score,structure_score,length_score,word_count,latency_ms,error
+MTK-SD-001,Matematika,SD,Kelas 5,gpt-oss-120b,1.0,1.0,1.0,1.0,110,9748,
+MTK-SD-001,Matematika,SD,Kelas 5,gemma-4-31b,1.0,1.0,1.0,1.0,142,10695,
+MTK-SD-001,Matematika,SD,Kelas 5,nemotron-super,0.88,1.0,0.6,1.0,74,13751,
+MTK-SD-001,Matematika,SD,Kelas 5,kimi-k2,0.0,0.0,0.0,0.0,0,,"Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'moonshotai/kimi-k2.6:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Crucible', 'is_byok': False}}, 'user_id': 'user_3EgwSLoqlxLwBdNMFC2C1tq45FH'}"
+MTK-SD-002,Matematika,SD,Kelas 4,gpt-oss-120b,1.0,1.0,1.0,1.0,58,5760,
+MTK-SD-002,Matematika,SD,Kelas 4,gemma-4-31b,0.775,0.67,0.8,1.0,80,4948,
+MTK-SD-002,Matematika,SD,Kelas 4,nemotron-super,0.603,0.67,0.6,0.44,22,4810,
+MTK-SD-002,Matematika,SD,Kelas 4,kimi-k2,0.0,0.0,0.0,0.0,0,,"Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'moonshotai/kimi-k2.6:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Crucible', 'is_byok': False}}, 'user_id': 'user_3EgwSLoqlxLwBdNMFC2C1tq45FH'}"
