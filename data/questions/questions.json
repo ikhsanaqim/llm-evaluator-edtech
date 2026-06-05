@@ -1,0 +1,202 @@
+[
+  {
+    "id": "MTK-SD-001",
+    "subject": "Matematika",
+    "level": "SD",
+    "grade": "Kelas 5",
+    "question": "Sebuah persegi panjang memiliki panjang 12 cm dan lebar 8 cm. Berapakah luas dan kelilingnya?",
+    "ground_truth": "Luas = panjang × lebar = 12 × 8 = 96 cm². Keliling = 2 × (panjang + lebar) = 2 × (12 + 8) = 2 × 20 = 40 cm.",
+    "key_concepts": ["luas persegi panjang", "keliling persegi panjang"],
+    "expected_answer_short": "Luas = 96 cm², Keliling = 40 cm"
+  },
+  {
+    "id": "MTK-SD-002",
+    "subject": "Matematika",
+    "level": "SD",
+    "grade": "Kelas 4",
+    "question": "Ibu membeli 3 lusin telur. Berapa butir telur yang dibeli ibu?",
+    "ground_truth": "1 lusin = 12 butir. Jadi 3 lusin = 3 × 12 = 36 butir telur.",
+    "key_concepts": ["lusin", "perkalian"],
+    "expected_answer_short": "36 butir"
+  },
+  {
+    "id": "MTK-SMP-001",
+    "subject": "Matematika",
+    "level": "SMP",
+    "grade": "Kelas 7",
+    "question": "Tentukan nilai x dari persamaan linear berikut: 3x + 7 = 22",
+    "ground_truth": "3x + 7 = 22 → 3x = 22 - 7 → 3x = 15 → x = 15/3 → x = 5.",
+    "key_concepts": ["persamaan linear satu variabel", "operasi aljabar"],
+    "expected_answer_short": "x = 5"
+  },
+  {
+    "id": "MTK-SMP-002",
+    "subject": "Matematika",
+    "level": "SMP",
+    "grade": "Kelas 8",
+    "question": "Jika sebuah segitiga siku-siku memiliki dua sisi tegak sepanjang 6 cm dan 8 cm, berapakah panjang hipotenusanya?",
+    "ground_truth": "Menggunakan teorema Pythagoras: c² = a² + b² = 6² + 8² = 36 + 64 = 100. Jadi c = √100 = 10 cm.",
+    "key_concepts": ["teorema Pythagoras", "segitiga siku-siku"],
+    "expected_answer_short": "10 cm"
+  },
+  {
+    "id": "MTK-SMA-001",
+    "subject": "Matematika",
+    "level": "SMA",
+    "grade": "Kelas 10",
+    "question": "Tentukan turunan dari fungsi f(x) = 3x³ - 2x² + 5x - 1",
+    "ground_truth": "f'(x) = 9x² - 4x + 5. Menggunakan aturan power rule: turunan dari ax^n adalah n·ax^(n-1).",
+    "key_concepts": ["turunan fungsi", "power rule", "diferensial"],
+    "expected_answer_short": "f'(x) = 9x² - 4x + 5"
+  },
+  {
+    "id": "MTK-SMA-002",
+    "subject": "Matematika",
+    "level": "SMA",
+    "grade": "Kelas 11",
+    "question": "Hitunglah nilai dari sin(60°) + cos(30°)",
+    "ground_truth": "sin(60°) = √3/2 dan cos(30°) = √3/2. Jadi sin(60°) + cos(30°) = √3/2 + √3/2 = √3 ≈ 1.732.",
+    "key_concepts": ["trigonometri", "nilai sudut istimewa"],
+    "expected_answer_short": "√3 atau ≈ 1.732"
+  },
+  {
+    "id": "IPA-SD-001",
+    "subject": "IPA",
+    "level": "SD",
+    "grade": "Kelas 4",
+    "question": "Sebutkan tiga contoh benda yang dapat menghantarkan listrik (konduktor) dan tiga contoh benda yang tidak dapat menghantarkan listrik (isolator)!",
+    "ground_truth": "Konduktor: tembaga, besi, aluminium (logam pada umumnya). Isolator: kayu, plastik, karet.",
+    "key_concepts": ["konduktor", "isolator", "listrik"],
+    "expected_answer_short": "Konduktor: tembaga/besi/aluminium. Isolator: kayu/plastik/karet"
+  },
+  {
+    "id": "IPA-SD-002",
+    "subject": "IPA",
+    "level": "SD",
+    "grade": "Kelas 5",
+    "question": "Apa yang dimaksud dengan fotosintesis dan apa saja yang dibutuhkan tumbuhan untuk melakukan fotosintesis?",
+    "ground_truth": "Fotosintesis adalah proses pembuatan makanan oleh tumbuhan menggunakan cahaya matahari. Yang dibutuhkan: cahaya matahari, air (H₂O), dan karbon dioksida (CO₂). Hasilnya adalah glukosa dan oksigen (O₂).",
+    "key_concepts": ["fotosintesis", "klorofil", "cahaya matahari", "CO2", "air"],
+    "expected_answer_short": "Proses pembuatan makanan tumbuhan. Butuh: cahaya matahari, air, CO₂"
+  },
+  {
+    "id": "IPA-SMP-001",
+    "subject": "IPA",
+    "level": "SMP",
+    "grade": "Kelas 7",
+    "question": "Jelaskan perbedaan antara sel hewan dan sel tumbuhan, minimal 3 perbedaan!",
+    "ground_truth": "Perbedaan: (1) Sel tumbuhan memiliki dinding sel, sel hewan tidak. (2) Sel tumbuhan memiliki kloroplas, sel hewan tidak. (3) Sel tumbuhan memiliki vakuola besar permanen, sel hewan memiliki vakuola kecil atau tidak ada. (4) Sel hewan memiliki sentriol, sel tumbuhan tidak.",
+    "key_concepts": ["sel hewan", "sel tumbuhan", "dinding sel", "kloroplas", "vakuola"],
+    "expected_answer_short": "Dinding sel, kloroplas, vakuola"
+  },
+  {
+    "id": "IPA-SMP-002",
+    "subject": "IPA",
+    "level": "SMP",
+    "grade": "Kelas 8",
+    "question": "Sebuah benda bermassa 5 kg diletakkan di atas meja. Jika percepatan gravitasi g = 10 m/s², berapakah berat benda tersebut?",
+    "ground_truth": "Berat = massa × gravitasi = W = m × g = 5 kg × 10 m/s² = 50 Newton (N).",
+    "key_concepts": ["berat", "massa", "gravitasi", "Newton"],
+    "expected_answer_short": "50 Newton"
+  },
+  {
+    "id": "IPA-SMA-001",
+    "subject": "IPA",
+    "level": "SMA",
+    "grade": "Kelas 10",
+    "question": "Jelaskan perbedaan antara reaksi eksoterm dan endoterm beserta contoh masing-masing!",
+    "ground_truth": "Reaksi eksoterm adalah reaksi yang melepaskan kalor ke lingkungan (ΔH negatif), contoh: pembakaran kayu, perkaratan besi. Reaksi endoterm adalah reaksi yang menyerap kalor dari lingkungan (ΔH positif), contoh: fotosintesis, memasak.",
+    "key_concepts": ["eksoterm", "endoterm", "entalpi", "kalor"],
+    "expected_answer_short": "Eksoterm: melepas kalor (ΔH<0). Endoterm: menyerap kalor (ΔH>0)"
+  },
+  {
+    "id": "IPA-SMA-002",
+    "subject": "IPA",
+    "level": "SMA",
+    "grade": "Kelas 11",
+    "question": "Apa yang dimaksud dengan hukum kekekalan momentum? Tuliskan persamaannya!",
+    "ground_truth": "Hukum kekekalan momentum menyatakan bahwa total momentum sistem tertutup sebelum dan sesudah tumbukan adalah sama (konstan), selama tidak ada gaya luar. Persamaan: m₁v₁ + m₂v₂ = m₁v₁' + m₂v₂'",
+    "key_concepts": ["momentum", "kekekalan momentum", "tumbukan", "sistem tertutup"],
+    "expected_answer_short": "Total momentum sistem tertutup tetap konstan. m₁v₁ + m₂v₂ = m₁v₁' + m₂v₂'"
+  },
+  {
+    "id": "BIN-SD-001",
+    "subject": "Bahasa Indonesia",
+    "level": "SD",
+    "grade": "Kelas 4",
+    "question": "Apa perbedaan antara kalimat aktif dan kalimat pasif? Berikan masing-masing satu contoh!",
+    "ground_truth": "Kalimat aktif: subjek melakukan pekerjaan. Contoh: 'Adik memakan nasi.' Kalimat pasif: subjek dikenai pekerjaan, biasanya diawali imbuhan di- atau ter-. Contoh: 'Nasi dimakan adik.'",
+    "key_concepts": ["kalimat aktif", "kalimat pasif", "subjek", "predikat"],
+    "expected_answer_short": "Aktif: subjek melakukan. Pasif: subjek dikenai. Contoh masing-masing."
+  },
+  {
+    "id": "BIN-SD-002",
+    "subject": "Bahasa Indonesia",
+    "level": "SD",
+    "grade": "Kelas 5",
+    "question": "Apa yang dimaksud dengan paragraf dan apa saja unsur-unsur pembentuk paragraf?",
+    "ground_truth": "Paragraf adalah kumpulan beberapa kalimat yang membahas satu gagasan utama. Unsur-unsurnya: (1) Kalimat utama/topik — berisi gagasan pokok. (2) Kalimat penjelas — mendukung kalimat utama. (3) Gagasan utama — ide pokok yang ingin disampaikan.",
+    "key_concepts": ["paragraf", "kalimat utama", "kalimat penjelas", "gagasan utama"],
+    "expected_answer_short": "Kumpulan kalimat dengan satu gagasan utama. Unsur: kalimat utama, kalimat penjelas, gagasan pokok."
+  },
+  {
+    "id": "BIN-SMP-001",
+    "subject": "Bahasa Indonesia",
+    "level": "SMP",
+    "grade": "Kelas 7",
+    "question": "Jelaskan struktur teks deskripsi dan ciri-ciri kebahasaannya!",
+    "ground_truth": "Struktur teks deskripsi: (1) Identifikasi — pengenalan objek. (2) Deskripsi bagian — penjelasan detail objek dari berbagai aspek. (3) Penutup (opsional). Ciri kebahasaan: menggunakan kata sifat, kata kerja aktif, kalimat perincian, dan majas.",
+    "key_concepts": ["teks deskripsi", "identifikasi", "deskripsi bagian", "kata sifat"],
+    "expected_answer_short": "Struktur: identifikasi, deskripsi bagian, penutup. Ciri: kata sifat, kalimat perincian."
+  },
+  {
+    "id": "BIN-SMP-002",
+    "subject": "Bahasa Indonesia",
+    "level": "SMP",
+    "grade": "Kelas 8",
+    "question": "Apa perbedaan antara fakta dan opini? Berikan masing-masing dua contoh dalam konteks berita!",
+    "ground_truth": "Fakta adalah pernyataan yang dapat dibuktikan kebenarannya. Opini adalah pendapat atau pandangan seseorang. Contoh fakta: 'Gempa berkekuatan 5,4 SR mengguncang Jakarta.' Contoh opini: 'Pemerintah seharusnya lebih sigap menangani bencana.'",
+    "key_concepts": ["fakta", "opini", "teks berita", "verifikasi"],
+    "expected_answer_short": "Fakta: bisa dibuktikan. Opini: pendapat/pandangan. Masing-masing dua contoh."
+  },
+  {
+    "id": "BIN-SMA-001",
+    "subject": "Bahasa Indonesia",
+    "level": "SMA",
+    "grade": "Kelas 10",
+    "question": "Jelaskan pengertian teks eksposisi dan sebutkan struktur serta kaidah kebahasaannya!",
+    "ground_truth": "Teks eksposisi adalah teks yang bertujuan menginformasikan, menjelaskan, atau menganalisis suatu permasalahan. Struktur: (1) Tesis/pernyataan pendapat. (2) Argumentasi — bukti dan alasan. (3) Penegasan ulang. Kaidah: menggunakan kata-kata teknis, konjungsi kausalitas (karena, sehingga), dan kata kerja mental.",
+    "key_concepts": ["teks eksposisi", "tesis", "argumentasi", "konjungsi kausalitas"],
+    "expected_answer_short": "Teks informatif/analitis. Struktur: tesis, argumentasi, penegasan. Ciri: kata teknis, konjungsi kausalitas."
+  },
+  {
+    "id": "BIN-SMA-002",
+    "subject": "Bahasa Indonesia",
+    "level": "SMA",
+    "grade": "Kelas 11",
+    "question": "Apa yang dimaksud dengan majas ironi, sinisme, dan sarkasme? Jelaskan perbedaannya beserta contoh!",
+    "ground_truth": "Ironi: ungkapan yang maknanya bertentangan dengan yang dimaksud, halus. Contoh: 'Wah, rapi sekali kamarmu!' (padahal berantakan). Sinisme: lebih tajam dari ironi, meragukan. Contoh: 'Kamu memang selalu tepat waktu, ya.' Sarkasme: paling kasar, menyakitkan. Contoh: 'Dasar bodoh, soal semudah ini saja tidak bisa!'",
+    "key_concepts": ["majas ironi", "sinisme", "sarkasme", "gaya bahasa"],
+    "expected_answer_short": "Ironi (halus), sinisme (lebih tajam), sarkasme (kasar/menyakitkan). Masing-masing contoh."
+  },
+  {
+    "id": "MTK-SMA-003",
+    "subject": "Matematika",
+    "level": "SMA",
+    "grade": "Kelas 12",
+    "question": "Hitunglah integral tak tentu dari f(x) = 4x³ + 6x² - 2x + 3",
+    "ground_truth": "∫(4x³ + 6x² - 2x + 3)dx = x⁴ + 2x³ - x² + 3x + C. Menggunakan rumus ∫ax^n dx = (a/(n+1))x^(n+1) + C.",
+    "key_concepts": ["integral tak tentu", "antiturunan", "konstanta integrasi"],
+    "expected_answer_short": "x⁴ + 2x³ - x² + 3x + C"
+  },
+  {
+    "id": "IPA-SMA-003",
+    "subject": "IPA",
+    "level": "SMA",
+    "grade": "Kelas 12",
+    "question": "Jelaskan mekanisme replikasi DNA secara singkat!",
+    "ground_truth": "Replikasi DNA adalah proses penggandaan DNA. Mekanisme: (1) Helikase memutus ikatan hidrogen antara dua rantai DNA (unzipping). (2) Primase membuat primer RNA. (3) DNA polimerase menambahkan nukleotida baru secara komplementer (A-T, G-C). (4) Terbentuk dua molekul DNA identik (semikonservatif). Terjadi di nukleus.",
+    "key_concepts": ["replikasi DNA", "helikase", "DNA polimerase", "semikonservatif"],
+    "expected_answer_short": "Penggandaan DNA: helikase buka rantai → DNA polimerase tambah nukleotida → 2 DNA identik (semikonservatif)"
+  }
+]

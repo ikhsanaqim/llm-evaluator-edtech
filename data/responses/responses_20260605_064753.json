@@ -1,0 +1,258 @@
+[
+  {
+    "question_id": "MTK-SD-001",
+    "subject": "Matematika",
+    "level": "SD",
+    "grade": "Kelas 5",
+    "question": "Sebuah persegi panjang memiliki panjang 12 cm dan lebar 8 cm. Berapakah luas dan kelilingnya?",
+    "ground_truth": "Luas = panjang × lebar = 12 × 8 = 96 cm². Keliling = 2 × (panjang + lebar) = 2 × (12 + 8) = 2 × 20 = 40 cm.",
+    "expected_answer_short": "Luas = 96 cm², Keliling = 40 cm",
+    "model_responses": [
+      {
+        "model_key": "llama-3.3-70b",
+        "model_name": "meta-llama/llama-3.3-70b-instruct:free",
+        "response": null,
+        "latency_ms": null,
+        "error": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'meta-llama/llama-3.3-70b-instruct:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Venice', 'is_byok': False, 'retry_after_seconds': 30, 'retry_after_seconds_raw': 29.123, 'headers': {'Retry-After': '30'}}}, 'user_id': 'user_3EgwSLoqlxLwBdNMFC2C1tq45FH'}",
+        "auto_eval": {
+          "composite_auto_score": 0.0,
+          "accuracy": {
+            "score": 0.0,
+            "method": "keyword_match",
+            "reasoning": "No response (API error)"
+          },
+          "structure": {
+            "score": 0.0,
+            "method": "structure_check",
+            "reasoning": "No response"
+          },
+          "length": {
+            "score": 0.0,
+            "method": "length_check",
+            "word_count": 0
+          }
+        }
+      },
+      {
+        "model_key": "gpt-oss-120b",
+        "model_name": "openai/gpt-oss-120b:free",
+        "response": "**Diketahui**\n- Panjang (p) = 12 cm  \n- Lebar (l) = 8 cm  \n\n---\n\n### 1. Menghitung luas persegi panjang\nRumus luas:  \n\n\\[\n\\text{Luas} = p \\times l\n\\]\n\n\\[\n\\text{Luas} = 12 \\text{ cm} \\times 8 \\text{ cm} = 96 \\text{ cm}^2\n\\]\n\nJadi, **luasnya = 96 cm²**.\n\n---\n\n### 2. Menghitung keliling persegi panjang\nRumus keliling:  \n\n\\[\n\\text{Keliling} = 2(p + l)\n\\]\n\n\\[\n\\text{Keliling} = 2(12 \\text{ cm} + 8 \\text{ cm}) = 2(20 \\text{ cm}) = 40 \\text{ cm}\n\\]\n\nJadi, **kelilingnya = 40 cm**.\n\n---\n\n**Ringkasan**\n\n- Luas = **96 cm²**  \n- Keliling = **40 cm**  \n\nSemoga membantu! Jika ada pertanyaan lain, silakan tanya.",
+        "latency_ms": 8878,
+        "error": null,
+        "auto_eval": {
+          "composite_auto_score": 1.0,
+          "accuracy": {
+            "score": 1.0,
+            "method": "keyword_match",
+            "reasoning": "Key concepts: 2/2 matched. Numeric values: 2/2 matched."
+          },
+          "structure": {
+            "score": 1.0,
+            "method": "structure_check",
+            "reasoning": {
+              "has_numbered_steps": true,
+              "has_bullet_points": true,
+              "has_causal_connectors": true,
+              "multi_sentence": true,
+              "has_formula_or_equation": true
+            }
+          },
+          "length": {
+            "score": 1.0,
+            "method": "length_check",
+            "word_count": 109,
+            "target_range": "50-200 words",
+            "reasoning": "109 words for SD level (target: 50-200)"
+          }
+        }
+      },
+      {
+        "model_key": "qwen3-coder",
+        "model_name": "qwen/qwen3-coder:free",
+        "response": null,
+        "latency_ms": null,
+        "error": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'qwen/qwen3-coder:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Venice', 'is_byok': False, 'retry_after_seconds': 29, 'retry_after_seconds_raw': 28.976, 'headers': {'Retry-After': '29'}}}, 'user_id': 'user_3EgwSLoqlxLwBdNMFC2C1tq45FH'}",
+        "auto_eval": {
+          "composite_auto_score": 0.0,
+          "accuracy": {
+            "score": 0.0,
+            "method": "keyword_match",
+            "reasoning": "No response (API error)"
+          },
+          "structure": {
+            "score": 0.0,
+            "method": "structure_check",
+            "reasoning": "No response"
+          },
+          "length": {
+            "score": 0.0,
+            "method": "length_check",
+            "word_count": 0
+          }
+        }
+      },
+      {
+        "model_key": "gemma-4-31b",
+        "model_name": "google/gemma-4-31b-it:free",
+        "response": "Halo! Mari kita selesaikan soal ini bersama-sama.\n\nUntuk mencari luas dan keliling persegi panjang, kita perlu menggunakan rumus matematika yang sudah ditentukan. Berikut adalah langkah-langkah penyelesaiannya:\n\n### **1. Diketahui**\n*   Panjang ($p$) = $12\\text{ cm}$\n*   Lebar ($l$) = $8\\text{ cm}$\n\n---\n\n### **2. Menghitung Luas**\nRumus luas persegi panjang adalah **panjang dikali lebar**.\n\n$$\\text{Luas} = p \\times l$$\n$$\\text{Luas} = 12\\text{ cm} \\times 8\\text{ cm}$$\n$$\\text{Luas} = 96\\text{ cm}^2$$\n\nJadi, luas persegi panjang tersebut adalah **$96\\text{ cm}^2$**.\n\n---\n\n### **3. Menghitung Keliling**\nRumus keliling persegi panjang adalah **dua kali jumlah panjang dan lebar**.\n\n$$\\text{Keliling} = 2 \\times (p + l)$$\n$$\\text{Keliling} = 2 \\times (12\\text{ cm} + 8\\text{ cm})$$\n$$\\text{Keliling} = 2 \\times 20\\text{ cm}$$\n$$\\text{Keliling} = 40\\text{ cm}$$\n\nJadi, keliling persegi panjang tersebut adalah **$40\\text{ cm}$**.\n\n---\n\n### **Kesimpulan Akhir:**\n*   **Luas:** $96\\text{ cm}^2$\n*   **Keliling:** $40\\text{ cm}$\n\nSemoga penjelasan ini membantumu belajar! Jika ada yang kurang jelas, silakan ditanyakan ya.",
+        "latency_ms": 9432,
+        "error": null,
+        "auto_eval": {
+          "composite_auto_score": 1.0,
+          "accuracy": {
+            "score": 1.0,
+            "method": "keyword_match",
+            "reasoning": "Key concepts: 2/2 matched. Numeric values: 2/2 matched."
+          },
+          "structure": {
+            "score": 1.0,
+            "method": "structure_check",
+            "reasoning": {
+              "has_numbered_steps": true,
+              "has_bullet_points": true,
+              "has_causal_connectors": true,
+              "multi_sentence": true,
+              "has_formula_or_equation": true
+            }
+          },
+          "length": {
+            "score": 1.0,
+            "method": "length_check",
+            "word_count": 153,
+            "target_range": "50-200 words",
+            "reasoning": "153 words for SD level (target: 50-200)"
+          }
+        }
+      }
+    ],
+    "evaluated_at": "20260605_064753"
+  },
+  {
+    "question_id": "MTK-SD-002",
+    "subject": "Matematika",
+    "level": "SD",
+    "grade": "Kelas 4",
+    "question": "Ibu membeli 3 lusin telur. Berapa butir telur yang dibeli ibu?",
+    "ground_truth": "1 lusin = 12 butir. Jadi 3 lusin = 3 × 12 = 36 butir telur.",
+    "expected_answer_short": "36 butir",
+    "model_responses": [
+      {
+        "model_key": "llama-3.3-70b",
+        "model_name": "meta-llama/llama-3.3-70b-instruct:free",
+        "response": null,
+        "latency_ms": null,
+        "error": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'meta-llama/llama-3.3-70b-instruct:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Venice', 'is_byok': False, 'retry_after_seconds': 29, 'retry_after_seconds_raw': 28.449, 'headers': {'Retry-After': '29'}}}, 'user_id': 'user_3EgwSLoqlxLwBdNMFC2C1tq45FH'}",
+        "auto_eval": {
+          "composite_auto_score": 0.0,
+          "accuracy": {
+            "score": 0.0,
+            "method": "keyword_match",
+            "reasoning": "No response (API error)"
+          },
+          "structure": {
+            "score": 0.0,
+            "method": "structure_check",
+            "reasoning": "No response"
+          },
+          "length": {
+            "score": 0.0,
+            "method": "length_check",
+            "word_count": 0
+          }
+        }
+      },
+      {
+        "model_key": "gpt-oss-120b",
+        "model_name": "openai/gpt-oss-120b:free",
+        "response": "**Langkah‑langkah penyelesaian**\n\n1. **Ketahui satuan yang diberikan**  \n   - 1 lusin = 12 butir.\n\n2. **Kalikan jumlah lusin dengan jumlah butir per lusin**  \n   \\[\n   \\text{Jumlah telur} = 3 \\text{ lusin} \\times 12 \\text{ butir/lusin}\n   \\]\n\n3. **Hitung**  \n   \\[\n   3 \\times 12 = 36\n   \\]\n\n**Jawaban:** Ibu membeli **36 butir telur**.",
+        "latency_ms": 4963,
+        "error": null,
+        "auto_eval": {
+          "composite_auto_score": 0.771,
+          "accuracy": {
+            "score": 0.67,
+            "method": "keyword_match",
+            "reasoning": "Key concepts: 1/2 matched. Numeric values: 1/1 matched."
+          },
+          "structure": {
+            "score": 0.8,
+            "method": "structure_check",
+            "reasoning": {
+              "has_numbered_steps": true,
+              "has_bullet_points": true,
+              "has_causal_connectors": false,
+              "multi_sentence": true,
+              "has_formula_or_equation": true
+            }
+          },
+          "length": {
+            "score": 0.98,
+            "method": "length_check",
+            "word_count": 49,
+            "target_range": "50-200 words",
+            "reasoning": "49 words for SD level (target: 50-200)"
+          }
+        }
+      },
+      {
+        "model_key": "qwen3-coder",
+        "model_name": "qwen/qwen3-coder:free",
+        "response": null,
+        "latency_ms": null,
+        "error": "Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'qwen/qwen3-coder:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Venice', 'is_byok': False, 'retry_after_seconds': 29, 'retry_after_seconds_raw': 28.789, 'headers': {'Retry-After': '29'}}}, 'user_id': 'user_3EgwSLoqlxLwBdNMFC2C1tq45FH'}",
+        "auto_eval": {
+          "composite_auto_score": 0.0,
+          "accuracy": {
+            "score": 0.0,
+            "method": "keyword_match",
+            "reasoning": "No response (API error)"
+          },
+          "structure": {
+            "score": 0.0,
+            "method": "structure_check",
+            "reasoning": "No response"
+          },
+          "length": {
+            "score": 0.0,
+            "method": "length_check",
+            "word_count": 0
+          }
+        }
+      },
+      {
+        "model_key": "gemma-4-31b",
+        "model_name": "google/gemma-4-31b-it:free",
+        "response": "Halo! Mari kita selesaikan soal ini bersama-sama.\n\nUntuk menjawab pertanyaan ini, kita perlu mengetahui terlebih dahulu nilai dari satu lusin.\n\n**Diketahui:**\n*   1 lusin = 12 butir\n\n**Ditanya:**\n*   Berapa butir telur jika Ibu membeli 3 lusin?\n\n**Langkah Penyelesaian:**\nUntuk mencari jumlah total telur, kita cukup mengalikan jumlah lusin dengan isi per lusinnya.\n\n$$\\text{Jumlah telur} = \\text{Jumlah lusin} \\times 12$$\n$$\\text{Jumlah telur} = 3 \\times 12$$\n$$\\text{Jumlah telur} = 36$$\n\n**Jawaban:**\nJadi, jumlah telur yang dibeli ibu adalah **36 butir**.",
+        "latency_ms": 4182,
+        "error": null,
+        "auto_eval": {
+          "composite_auto_score": 0.775,
+          "accuracy": {
+            "score": 0.67,
+            "method": "keyword_match",
+            "reasoning": "Key concepts: 1/2 matched. Numeric values: 1/1 matched."
+          },
+          "structure": {
+            "score": 0.8,
+            "method": "structure_check",
+            "reasoning": {
+              "has_numbered_steps": false,
+              "has_bullet_points": true,
+              "has_causal_connectors": true,
+              "multi_sentence": true,
+              "has_formula_or_equation": true
+            }
+          },
+          "length": {
+            "score": 1.0,
+            "method": "length_check",
+            "word_count": 80,
+            "target_range": "50-200 words",
+            "reasoning": "80 words for SD level (target: 50-200)"
+          }
+        }
+      }
+    ],
+    "evaluated_at": "20260605_064753"
+  }
+]

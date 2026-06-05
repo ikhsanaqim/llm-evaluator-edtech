@@ -1,0 +1,9 @@
+langchain==0.3.25
+langchain-openai==0.3.16
+langsmith==0.3.45
+openai==1.82.1
+streamlit==1.45.1
+pandas==2.2.3
+python-dotenv==1.1.0
+tqdm==4.67.1
+pytest==8.3.5

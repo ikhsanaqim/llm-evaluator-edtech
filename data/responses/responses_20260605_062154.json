@@ -1,0 +1,226 @@
+[
+  {
+    "question_id": "MTK-SD-001",
+    "subject": "Matematika",
+    "level": "SD",
+    "grade": "Kelas 5",
+    "question": "Sebuah persegi panjang memiliki panjang 12 cm dan lebar 8 cm. Berapakah luas dan kelilingnya?",
+    "ground_truth": "Luas = panjang × lebar = 12 × 8 = 96 cm². Keliling = 2 × (panjang + lebar) = 2 × (12 + 8) = 2 × 20 = 40 cm.",
+    "expected_answer_short": "Luas = 96 cm², Keliling = 40 cm",
+    "model_responses": [
+      {
+        "model_key": "mistral-7b",
+        "model_name": "mistralai/mistral-7b-instruct:free",
+        "response": null,
+        "latency_ms": null,
+        "error": "Error code: 404 - {'error': {'message': 'No endpoints found for mistralai/mistral-7b-instruct:free.', 'code': 404}, 'user_id': 'user_3EgwSLoqlxLwBdNMFC2C1tq45FH'}",
+        "auto_eval": {
+          "composite_auto_score": 0.0,
+          "accuracy": {
+            "score": 0.0,
+            "method": "keyword_match",
+            "reasoning": "No response (API error)"
+          },
+          "structure": {
+            "score": 0.0,
+            "method": "structure_check",
+            "reasoning": "No response"
+          },
+          "length": {
+            "score": 0.0,
+            "method": "length_check",
+            "word_count": 0
+          }
+        }
+      },
+      {
+        "model_key": "gemma-2-9b",
+        "model_name": "google/gemma-2-9b-it:free",
+        "response": null,
+        "latency_ms": null,
+        "error": "Error code: 404 - {'error': {'message': 'No endpoints found for google/gemma-2-9b-it:free.', 'code': 404}, 'user_id': 'user_3EgwSLoqlxLwBdNMFC2C1tq45FH'}",
+        "auto_eval": {
+          "composite_auto_score": 0.0,
+          "accuracy": {
+            "score": 0.0,
+            "method": "keyword_match",
+            "reasoning": "No response (API error)"
+          },
+          "structure": {
+            "score": 0.0,
+            "method": "structure_check",
+            "reasoning": "No response"
+          },
+          "length": {
+            "score": 0.0,
+            "method": "length_check",
+            "word_count": 0
+          }
+        }
+      },
+      {
+        "model_key": "llama-3-8b",
+        "model_name": "meta-llama/llama-3-8b-instruct:free",
+        "response": null,
+        "latency_ms": null,
+        "error": "Error code: 404 - {'error': {'message': 'No endpoints found for meta-llama/llama-3-8b-instruct:free.', 'code': 404}, 'user_id': 'user_3EgwSLoqlxLwBdNMFC2C1tq45FH'}",
+        "auto_eval": {
+          "composite_auto_score": 0.0,
+          "accuracy": {
+            "score": 0.0,
+            "method": "keyword_match",
+            "reasoning": "No response (API error)"
+          },
+          "structure": {
+            "score": 0.0,
+            "method": "structure_check",
+            "reasoning": "No response"
+          },
+          "length": {
+            "score": 0.0,
+            "method": "length_check",
+            "word_count": 0
+          }
+        }
+      },
+      {
+        "model_key": "qwen-2.5-7b",
+        "model_name": "qwen/qwen-2.5-7b-instruct:free",
+        "response": null,
+        "latency_ms": null,
+        "error": "Error code: 404 - {'error': {'message': 'No endpoints found for qwen/qwen-2.5-7b-instruct:free.', 'code': 404}, 'user_id': 'user_3EgwSLoqlxLwBdNMFC2C1tq45FH'}",
+        "auto_eval": {
+          "composite_auto_score": 0.0,
+          "accuracy": {
+            "score": 0.0,
+            "method": "keyword_match",
+            "reasoning": "No response (API error)"
+          },
+          "structure": {
+            "score": 0.0,
+            "method": "structure_check",
+            "reasoning": "No response"
+          },
+          "length": {
+            "score": 0.0,
+            "method": "length_check",
+            "word_count": 0
+          }
+        }
+      }
+    ],
+    "evaluated_at": "20260605_062154"
+  },
+  {
+    "question_id": "MTK-SD-002",
+    "subject": "Matematika",
+    "level": "SD",
+    "grade": "Kelas 4",
+    "question": "Ibu membeli 3 lusin telur. Berapa butir telur yang dibeli ibu?",
+    "ground_truth": "1 lusin = 12 butir. Jadi 3 lusin = 3 × 12 = 36 butir telur.",
+    "expected_answer_short": "36 butir",
+    "model_responses": [
+      {
+        "model_key": "mistral-7b",
+        "model_name": "mistralai/mistral-7b-instruct:free",
+        "response": null,
+        "latency_ms": null,
+        "error": "Error code: 404 - {'error': {'message': 'No endpoints found for mistralai/mistral-7b-instruct:free.', 'code': 404}, 'user_id': 'user_3EgwSLoqlxLwBdNMFC2C1tq45FH'}",
+        "auto_eval": {
+          "composite_auto_score": 0.0,
+          "accuracy": {
+            "score": 0.0,
+            "method": "keyword_match",
+            "reasoning": "No response (API error)"
+          },
+          "structure": {
+            "score": 0.0,
+            "method": "structure_check",
+            "reasoning": "No response"
+          },
+          "length": {
+            "score": 0.0,
+            "method": "length_check",
+            "word_count": 0
+          }
+        }
+      },
+      {
+        "model_key": "gemma-2-9b",
+        "model_name": "google/gemma-2-9b-it:free",
+        "response": null,
+        "latency_ms": null,
+        "error": "Error code: 404 - {'error': {'message': 'No endpoints found for google/gemma-2-9b-it:free.', 'code': 404}, 'user_id': 'user_3EgwSLoqlxLwBdNMFC2C1tq45FH'}",
+        "auto_eval": {
+          "composite_auto_score": 0.0,
+          "accuracy": {
+            "score": 0.0,
+            "method": "keyword_match",
+            "reasoning": "No response (API error)"
+          },
+          "structure": {
+            "score": 0.0,
+            "method": "structure_check",
+            "reasoning": "No response"
+          },
+          "length": {
+            "score": 0.0,
+            "method": "length_check",
+            "word_count": 0
+          }
+        }
+      },
+      {
+        "model_key": "llama-3-8b",
+        "model_name": "meta-llama/llama-3-8b-instruct:free",
+        "response": null,
+        "latency_ms": null,
+        "error": "Error code: 404 - {'error': {'message': 'No endpoints found for meta-llama/llama-3-8b-instruct:free.', 'code': 404}, 'user_id': 'user_3EgwSLoqlxLwBdNMFC2C1tq45FH'}",
+        "auto_eval": {
+          "composite_auto_score": 0.0,
+          "accuracy": {
+            "score": 0.0,
+            "method": "keyword_match",
+            "reasoning": "No response (API error)"
+          },
+          "structure": {
+            "score": 0.0,
+            "method": "structure_check",
+            "reasoning": "No response"
+          },
+          "length": {
+            "score": 0.0,
+            "method": "length_check",
+            "word_count": 0
+          }
+        }
+      },
+      {
+        "model_key": "qwen-2.5-7b",
+        "model_name": "qwen/qwen-2.5-7b-instruct:free",
+        "response": null,
+        "latency_ms": null,
+        "error": "Error code: 404 - {'error': {'message': 'No endpoints found for qwen/qwen-2.5-7b-instruct:free.', 'code': 404}, 'user_id': 'user_3EgwSLoqlxLwBdNMFC2C1tq45FH'}",
+        "auto_eval": {
+          "composite_auto_score": 0.0,
+          "accuracy": {
+            "score": 0.0,
+            "method": "keyword_match",
+            "reasoning": "No response (API error)"
+          },
+          "structure": {
+            "score": 0.0,
+            "method": "structure_check",
+            "reasoning": "No response"
+          },
+          "length": {
+            "score": 0.0,
+            "method": "length_check",
+            "word_count": 0
+          }
+        }
+      }
+    ],
+    "evaluated_at": "20260605_062154"
+  }
+]
