@@ -1,0 +1,1147 @@
+[
+  {
+    "question_id": "MTK-SD-001",
+    "subject": "Matematika",
+    "level": "SD",
+    "grade": "Kelas 5",
+    "question": "Sebuah persegi panjang memiliki panjang 12 cm dan lebar 8 cm. Berapakah luas dan kelilingnya?",
+    "ground_truth": "Luas = panjang × lebar = 12 × 8 = 96 cm². Keliling = 2 × (panjang + lebar) = 2 × (12 + 8) = 2 × 20 = 40 cm.",
+    "expected_answer_short": "Luas = 96 cm², Keliling = 40 cm",
+    "model_responses": [
+      {
+        "model_key": "gpt-oss-120b",
+        "model_name": "openai/gpt-oss-120b:free",
+        "response": "**Diketahui**\n- Panjang (p) = 12 cm  \n- Lebar (l) = 8 cm  \n\n---\n\n## 1. Menghitung Luas\n\nRumus luas persegi panjang:  \n\n\\[\n\\text{Luas} = p \\times l\n\\]\n\n\\[\n\\text{Luas} = 12 \\text{ cm} \\times 8 \\text{ cm} = 96 \\text{ cm}^2\n\\]\n\nJadi, **luasnya = 96 cm²**.\n\n---\n\n## 2. Menghitung Keliling\n\nRumus keliling persegi panjang:  \n\n\\[\n\\text{Keliling} = 2 \\times (p + l)\n\\]\n\n\\[\n\\text{Keliling} = 2 \\times (12 \\text{ cm} + 8 \\text{ cm}) \n               = 2 \\times 20 \\text{ cm} \n               = 40 \\text{ cm}\n\\]\n\nJadi, **kelilingnya = 40 cm**.\n\n---\n\n### Ringkasan\n- **Luas** = 96 cm²  \n- **Keliling** = 40 cm  \n\nSemoga membantu! Jika ada soal lain, beri tahu ya. 😊",
+        "latency_ms": 8719,
+        "error": null,
+        "auto_eval": {
+          "composite_auto_score": 1.0,
+          "accuracy": {
+            "score": 1.0,
+            "method": "keyword_match",
+            "reasoning": "Key concepts: 2/2 matched. Numeric values: 2/2 matched."
+          },
+          "structure": {
+            "score": 1.0,
+            "method": "structure_check",
+            "reasoning": {
+              "has_numbered_steps": true,
+              "has_bullet_points": true,
+              "has_causal_connectors": true,
+              "multi_sentence": true,
+              "has_formula_or_equation": true
+            }
+          },
+          "length": {
+            "score": 1.0,
+            "method": "length_check",
+            "word_count": 118,
+            "target_range": "50-200 words",
+            "reasoning": "118 words for SD level (target: 50-200)"
+          }
+        },
+        "llm_judge": {
+          "judge_model": "gpt-oss-120b",
+          "reasoning_quality": {
+            "score_raw": 5,
+            "score_normalized": 1.0,
+            "reasoning": "Menjelaskan langkah perhitungan luas dan keliling secara lengkap dan logis."
+          },
+          "level_appropriateness": {
+            "score_raw": 5,
+            "score_normalized": 1.0,
+            "reasoning": "Bahasa sederhana, cocok untuk siswa kelas 5 SD, tanpa istilah teknis berlebih."
+          },
+          "hallucination_risk": {
+            "level": "low",
+            "score": 1.0,
+            "reasoning": "Semua pernyataan sesuai dengan data soal dan tidak ada informasi tambahan yang tidak diverifikasi."
+          },
+          "composite_judge_score": 1.0,
+          "raw_judge_response": "{\n  \"reasoning_quality\": {\n    \"score\": 5,\n    \"reasoning\": \"Menjelaskan langkah perhitungan luas dan keliling secara lengkap dan logis.\"\n  },\n  \"level_appropriateness\": {\n    \"score\": 5,\n    \"reasoning\": \"Bahasa sederhana, cocok untuk siswa kelas 5 SD, tanpa istilah teknis berlebih.\"\n  },\n  \"hallucination_risk\": {\n    \"level\": \"low\",\n    \"reasoning\": \"Semua pernyataan sesuai dengan data soal dan tidak ada informasi tambahan yang tidak diverifikasi.\"\n  }\n}",
+          "parse_error": null
+        }
+      },
+      {
+        "model_key": "gemma-4-31b",
+        "model_name": "google/gemma-4-31b-it:free",
+        "response": "Halo! Mari kita kerjakan soal ini bersama-sama ya.\n\nUntuk menjawab soal ini, kita perlu mengetahui dua rumus penting untuk persegi panjang, yaitu rumus **Luas** dan rumus **Keliling**.\n\n### **Diketahui:**\n*   Panjang ($p$) = $12\\text{ cm}$\n*   Lebar ($l$) = $8\\text{ cm}$\n\n---\n\n### **1. Menghitung Luas**\nLuas adalah besar area di dalam bangun datar tersebut.\n**Rumus Luas:** $\\text{Panjang} \\times \\text{Lebar}$\n\n**Langkah penyelesaian:**\n$$\\text{Luas} = p \\times l$$\n$$\\text{Luas} = 12\\text{ cm} \\times 8\\text{ cm}$$\n$$\\text{Luas} = 96\\text{ cm}^2$$\n\nJadi, luas persegi panjang tersebut adalah **$96\\text{ cm}^2$**.\n\n---\n\n### **2. Menghitung Keliling**\nKeliling adalah jumlah panjang seluruh sisi luar bangun datar tersebut.\n**Rumus Keliling:** $2 \\times (\\text{Panjang} + \\text{Lebar})$\n\n**Langkah penyelesaian:**\n$$\\text{Keliling} = 2 \\times (p + l)$$\n$$\\text{Keliling} = 2 \\times (12\\text{ cm} + 8\\text{ cm})$$\n$$\\text{Keliling} = 2 \\times 20\\text{ cm}$$\n$$\\text{Keliling} = 40\\text{ cm}$$\n\nJadi, keliling persegi panjang tersebut adalah **$40\\text{ cm}$**.\n\n---\n\n### **Kesimpulan Akhir:**\n*   **Luasnya** adalah **$96\\text{ cm}^2$**\n*   **Kelilingnya** adalah **$40\\text{ cm}$**\n\nMudah, bukan? Jika ada yang belum dipahami, silakan tanya lagi ya! 😊",
+        "latency_ms": 11844,
+        "error": null,
+        "auto_eval": {
+          "composite_auto_score": 1.0,
+          "accuracy": {
+            "score": 1.0,
+            "method": "keyword_match",
+            "reasoning": "Key concepts: 2/2 matched. Numeric values: 2/2 matched."
+          },
+          "structure": {
+            "score": 1.0,
+            "method": "structure_check",
+            "reasoning": {
+              "has_numbered_steps": true,
+              "has_bullet_points": true,
+              "has_causal_connectors": true,
+              "multi_sentence": true,
+              "has_formula_or_equation": true
+            }
+          },
+          "length": {
+            "score": 1.0,
+            "method": "length_check",
+            "word_count": 170,
+            "target_range": "50-200 words",
+            "reasoning": "170 words for SD level (target: 50-200)"
+          }
+        },
+        "llm_judge": {
+          "judge_model": "gpt-oss-120b",
+          "reasoning_quality": {
+            "score_raw": 5,
+            "score_normalized": 1.0,
+            "reasoning": "Menjelaskan langkah‑langkah secara lengkap dan logis, serta menghasilkan jawaban yang tepat."
+          },
+          "level_appropriateness": {
+            "score_raw": 5,
+            "score_normalized": 1.0,
+            "reasoning": "Bahasa sederhana, ramah, dan mudah dipahami oleh siswa kelas 5 SD."
+          },
+          "hallucination_risk": {
+            "level": "low",
+            "score": 1.0,
+            "reasoning": "Semua pernyataan dapat diverifikasi dan sesuai dengan jawaban referensi."
+          },
+          "composite_judge_score": 1.0,
+          "raw_judge_response": "{\n  \"reasoning_quality\": {\n    \"score\": 5,\n    \"reasoning\": \"Menjelaskan langkah‑langkah secara lengkap dan logis, serta menghasilkan jawaban yang tepat.\"\n  },\n  \"level_appropriateness\": {\n    \"score\": 5,\n    \"reasoning\": \"Bahasa sederhana, ramah, dan mudah dipahami oleh siswa kelas 5 SD.\"\n  },\n  \"hallucination_risk\": {\n    \"level\": \"low\",\n    \"reasoning\": \"Semua pernyataan dapat diverifikasi dan sesuai dengan jawaban referensi.\"\n  }\n}",
+          "parse_error": null
+        }
+      },
+      {
+        "model_key": "nemotron-super",
+        "model_name": "nvidia/nemotron-3-super-120b-a12b:free",
+        "response": "**Diketahui**  \n- Panjang (p) = 12 cm  \n- Lebar (l) = 8 cm  \n\n**1. Luas persegi panjang**  \nRumus: \\( \\text{Luas} = p \\times l \\)  \n\n\\[\n\\text{Luas} = 12\\ \\text{cm} \\times 8\\ \\text{cm} = 96\\ \\text{cm}^2\n\\]\n\n**2. Keliling persegi panjang**  \nRumus: \\( \\text{Keliling} = 2(p + l) \\)  \n\n\\[\n\\text{Keliling} = 2 \\times (12\\ \\text{cm} + 8\\ \\text{cm}) = 2 \\times 20\\ \\text{cm} = 40\\ \\text{cm}\n\\]\n\n---\n\n**Jawaban**  \n- Luas = **96 cm²**  \n- Keliling = **40 cm**",
+        "latency_ms": 20306,
+        "error": null,
+        "auto_eval": {
+          "composite_auto_score": 0.88,
+          "accuracy": {
+            "score": 1.0,
+            "method": "keyword_match",
+            "reasoning": "Key concepts: 2/2 matched. Numeric values: 2/2 matched."
+          },
+          "structure": {
+            "score": 0.6,
+            "method": "structure_check",
+            "reasoning": {
+              "has_numbered_steps": true,
+              "has_bullet_points": true,
+              "has_causal_connectors": false,
+              "multi_sentence": false,
+              "has_formula_or_equation": true
+            }
+          },
+          "length": {
+            "score": 1.0,
+            "method": "length_check",
+            "word_count": 80,
+            "target_range": "50-200 words",
+            "reasoning": "80 words for SD level (target: 50-200)"
+          }
+        },
+        "llm_judge": {
+          "judge_model": "gpt-oss-120b",
+          "reasoning_quality": {
+            "score_raw": 5,
+            "score_normalized": 1.0,
+            "reasoning": "Menampilkan langkah-langkah lengkap dengan rumus dan perhitungan yang benar."
+          },
+          "level_appropriateness": {
+            "score_raw": 5,
+            "score_normalized": 1.0,
+            "reasoning": "Bahasa sederhana, cocok untuk siswa kelas 5 SD, tanpa istilah teknis berlebih."
+          },
+          "hallucination_risk": {
+            "level": "low",
+            "score": 1.0,
+            "reasoning": "Semua pernyataan dapat diverifikasi dan sesuai dengan jawaban referensi."
+          },
+          "composite_judge_score": 1.0,
+          "raw_judge_response": "{\n  \"reasoning_quality\": {\n    \"score\": 5,\n    \"reasoning\": \"Menampilkan langkah-langkah lengkap dengan rumus dan perhitungan yang benar.\"\n  },\n  \"level_appropriateness\": {\n    \"score\": 5,\n    \"reasoning\": \"Bahasa sederhana, cocok untuk siswa kelas 5 SD, tanpa istilah teknis berlebih.\"\n  },\n  \"hallucination_risk\": {\n    \"level\": \"low\",\n    \"reasoning\": \"Semua pernyataan dapat diverifikasi dan sesuai dengan jawaban referensi.\"\n  }\n}",
+          "parse_error": null
+        }
+      },
+      {
+        "model_key": "nemotron-nano",
+        "model_name": "nvidia/nemotron-3-nano-30b-a3b:free",
+        "response": "**Soal:**  \nSebuah persegi panjang memiliki panjang **12 cm** dan lebar **8 cm**.  \nBerapa luas dan kelilingnya?\n\n---\n\n### 1. Menghitung Luas\n\nLuas (area) sebuah persegi panjang dihitung dengan rumus:\n\n\\[\n\\text{Luas} = \\text{Panjang} \\times \\text{Lebar}\n\\]\n\nMasukkan nilai yang diketahui:\n\n\\[\n\\text{Luas} = 12\\ \\text{cm} \\times 8\\ \\text{cm}\n\\]\n\n\\[\n\\text{Luas} = 96\\ \\text{cm}^2\n\\]\n\n**Jadi, luas persegi panjang tersebut adalah 96 cm².**\n\n---\n\n### 2. Menghitung Keliling\n\nKeliling persegi panjang dihitung dengan rumus:\n\n\\[\\text{Keliling} = 2 \\times (\\text{Panjang} + \\text{Lebar})\n\\]\n\nMasukkan nilai:\n\n\\[\n\\text{Keliling} = 2 \\times (12\\ \\text{cm} + 8\\ \\text{cm})\n\\]\n\n\\[\n\\text{Keliling} = 2 \\times 20\\ \\text{cm}\n\\]\n\n\\[\n\\text{Keliling} = 40\\ \\text{cm}\n\\]\n\n**Jadi, keliling persegi panjang tersebut adalah 40 cm.**\n\n---\n\n### Ringkasan Jawaban\n\n- **Luas:** 96 cm²  \n- **Keliling:** 40 cm  \n\nJika ada langkah yang masih kurang dimengerti, silakan tanya kembali! 😊",
+        "latency_ms": 2634,
+        "error": null,
+        "auto_eval": {
+          "composite_auto_score": 1.0,
+          "accuracy": {
+            "score": 1.0,
+            "method": "keyword_match",
+            "reasoning": "Key concepts: 2/2 matched. Numeric values: 2/2 matched."
+          },
+          "structure": {
+            "score": 1.0,
+            "method": "structure_check",
+            "reasoning": {
+              "has_numbered_steps": true,
+              "has_bullet_points": true,
+              "has_causal_connectors": true,
+              "multi_sentence": true,
+              "has_formula_or_equation": true
+            }
+          },
+          "length": {
+            "score": 1.0,
+            "method": "length_check",
+            "word_count": 140,
+            "target_range": "50-200 words",
+            "reasoning": "140 words for SD level (target: 50-200)"
+          }
+        },
+        "llm_judge": {
+          "judge_model": "gpt-oss-120b",
+          "reasoning_quality": {
+            "score_raw": 5,
+            "score_normalized": 1.0,
+            "reasoning": "Menjelaskan langkah perhitungan luas dan keliling secara lengkap dan logis."
+          },
+          "level_appropriateness": {
+            "score_raw": 5,
+            "score_normalized": 1.0,
+            "reasoning": "Bahasa sederhana dan cocok untuk siswa kelas 5 SD."
+          },
+          "hallucination_risk": {
+            "level": "low",
+            "score": 1.0,
+            "reasoning": "Semua pernyataan sesuai dengan fakta dan jawaban referensi."
+          },
+          "composite_judge_score": 1.0,
+          "raw_judge_response": "{\n  \"reasoning_quality\": {\n    \"score\": 5,\n    \"reasoning\": \"Menjelaskan langkah perhitungan luas dan keliling secara lengkap dan logis.\"\n  },\n  \"level_appropriateness\": {\n    \"score\": 5,\n    \"reasoning\": \"Bahasa sederhana dan cocok untuk siswa kelas 5 SD.\"\n  },\n  \"hallucination_risk\": {\n    \"level\": \"low\",\n    \"reasoning\": \"Semua pernyataan sesuai dengan fakta dan jawaban referensi.\"\n  }\n}",
+          "parse_error": null
+        }
+      }
+    ],
+    "evaluated_at": "20260606_124828",
+    "pipeline_version": "v2_langchain"
+  },
+  {
+    "question_id": "MTK-SD-002",
+    "subject": "Matematika",
+    "level": "SD",
+    "grade": "Kelas 4",
+    "question": "Ibu membeli 3 lusin telur. Berapa butir telur yang dibeli ibu?",
+    "ground_truth": "1 lusin = 12 butir. Jadi 3 lusin = 3 × 12 = 36 butir telur.",
+    "expected_answer_short": "36 butir",
+    "model_responses": [
+      {
+        "model_key": "gpt-oss-120b",
+        "model_name": "openai/gpt-oss-120b:free",
+        "response": "**Langkah‑langkah menghitung**\n\n1. **Ketahui satuan lusin**  \n   1 lusin = 12 butir.\n\n2. **Kalikan jumlah lusin dengan 12**  \n   Ibu membeli 3 lusin, jadi:  \n   \\[\n   3 \\text{ lusin} \\times 12 \\text{ butir per lusin}= 3 \\times 12 = 36 \\text{ butir}\n   \\]\n\n**Jadi, Ibu membeli 36 butir telur.**",
+        "latency_ms": 6518,
+        "error": null,
+        "auto_eval": {
+          "composite_auto_score": 0.819,
+          "accuracy": {
+            "score": 0.67,
+            "method": "keyword_match",
+            "reasoning": "Key concepts: 1/2 matched. Numeric values: 1/1 matched."
+          },
+          "structure": {
+            "score": 1.0,
+            "method": "structure_check",
+            "reasoning": {
+              "has_numbered_steps": true,
+              "has_bullet_points": true,
+              "has_causal_connectors": true,
+              "multi_sentence": true,
+              "has_formula_or_equation": true
+            }
+          },
+          "length": {
+            "score": 0.92,
+            "method": "length_check",
+            "word_count": 46,
+            "target_range": "50-200 words",
+            "reasoning": "46 words for SD level (target: 50-200)"
+          }
+        },
+        "llm_judge": {
+          "judge_model": "gpt-oss-120b",
+          "reasoning_quality": {
+            "score_raw": 5,
+            "score_normalized": 1.0,
+            "reasoning": "Langkah-langkah lengkap, jelas, dan logis sesuai dengan penyelesaian soal."
+          },
+          "level_appropriateness": {
+            "score_raw": 5,
+            "score_normalized": 1.0,
+            "reasoning": "Bahasa sederhana dan mudah dipahami oleh siswa kelas 4 SD."
+          },
+          "hallucination_risk": {
+            "level": "low",
+            "score": 1.0,
+            "reasoning": "Semua pernyataan dapat diverifikasi dan sesuai dengan jawaban referensi."
+          },
+          "composite_judge_score": 1.0,
+          "raw_judge_response": "{\n  \"reasoning_quality\": {\n    \"score\": 5,\n    \"reasoning\": \"Langkah-langkah lengkap, jelas, dan logis sesuai dengan penyelesaian soal.\"\n  },\n  \"level_appropriateness\": {\n    \"score\": 5,\n    \"reasoning\": \"Bahasa sederhana dan mudah dipahami oleh siswa kelas 4 SD.\"\n  },\n  \"hallucination_risk\": {\n    \"level\": \"low\",\n    \"reasoning\": \"Semua pernyataan dapat diverifikasi dan sesuai dengan jawaban referensi.\"\n  }\n}",
+          "parse_error": null
+        }
+      },
+      {
+        "model_key": "gemma-4-31b",
+        "model_name": "google/gemma-4-31b-it:free",
+        "response": "Halo! Mari kita kerjakan soal ini bersama-sama ya.\n\nUntuk menjawab pertanyaan ini, pertama-tama kita harus tahu dulu apa itu **\"lusin\"**.\n\n**Ingat:**\n1 lusin = 12 butir\n\n**Diketahui:**\nIbu membeli 3 lusin telur.\n\n**Cara Menghitung:**\nKarena 1 lusin adalah 12, maka untuk mencari jumlah 3 lusin, kita tinggal mengalikannya:\n\n$$\\text{Jumlah telur} = 3 \\times 12$$\n\n**Langkah penyelesaian:**\n$12 + 12 + 12 = 36$\n\n**Jadi, jumlah telur yang dibeli ibu adalah 36 butir.**",
+        "latency_ms": 4701,
+        "error": null,
+        "auto_eval": {
+          "composite_auto_score": 0.775,
+          "accuracy": {
+            "score": 0.67,
+            "method": "keyword_match",
+            "reasoning": "Key concepts: 1/2 matched. Numeric values: 1/1 matched."
+          },
+          "structure": {
+            "score": 0.8,
+            "method": "structure_check",
+            "reasoning": {
+              "has_numbered_steps": false,
+              "has_bullet_points": true,
+              "has_causal_connectors": true,
+              "multi_sentence": true,
+              "has_formula_or_equation": true
+            }
+          },
+          "length": {
+            "score": 1.0,
+            "method": "length_check",
+            "word_count": 72,
+            "target_range": "50-200 words",
+            "reasoning": "72 words for SD level (target: 50-200)"
+          }
+        },
+        "llm_judge": {
+          "judge_model": "gpt-oss-120b",
+          "reasoning_quality": {
+            "score_raw": 5,
+            "score_normalized": 1.0,
+            "reasoning": "Langkah-langkah disajikan secara lengkap dan logis, termasuk penjelasan konsep lusin dan perhitungan."
+          },
+          "level_appropriateness": {
+            "score_raw": 5,
+            "score_normalized": 1.0,
+            "reasoning": "Bahasa sederhana dan cocok untuk siswa kelas 4 SD, tanpa istilah teknis yang membingungkan."
+          },
+          "hallucination_risk": {
+            "level": "low",
+            "score": 1.0,
+            "reasoning": "Semua pernyataan dapat diverifikasi dan sesuai dengan jawaban referensi."
+          },
+          "composite_judge_score": 1.0,
+          "raw_judge_response": "{\n  \"reasoning_quality\": {\n    \"score\": 5,\n    \"reasoning\": \"Langkah-langkah disajikan secara lengkap dan logis, termasuk penjelasan konsep lusin dan perhitungan.\"\n  },\n  \"level_appropriateness\": {\n    \"score\": 5,\n    \"reasoning\": \"Bahasa sederhana dan cocok untuk siswa kelas 4 SD, tanpa istilah teknis yang membingungkan.\"\n  },\n  \"hallucination_risk\": {\n    \"level\": \"low\",\n    \"reasoning\": \"Semua pernyataan dapat diverifikasi dan sesuai dengan jawaban referensi.\"\n  }\n}",
+          "parse_error": null
+        }
+      },
+      {
+        "model_key": "nemotron-super",
+        "model_name": "nvidia/nemotron-3-super-120b-a12b:free",
+        "response": "Ibu membeli **3 lusin** telur.  \nKarena 1 lusin = 12 butir, maka:\n\n\\[\n3 \\text{ lusin} = 3 \\times 12 = 36 \\text{ butir}\n\\]\n\nJadi, ibu membeli **36 butir telur**.",
+        "latency_ms": 4582,
+        "error": null,
+        "auto_eval": {
+          "composite_auto_score": 0.639,
+          "accuracy": {
+            "score": 0.67,
+            "method": "keyword_match",
+            "reasoning": "Key concepts: 1/2 matched. Numeric values: 1/1 matched."
+          },
+          "structure": {
+            "score": 0.6,
+            "method": "structure_check",
+            "reasoning": {
+              "has_numbered_steps": false,
+              "has_bullet_points": true,
+              "has_causal_connectors": true,
+              "multi_sentence": false,
+              "has_formula_or_equation": true
+            }
+          },
+          "length": {
+            "score": 0.62,
+            "method": "length_check",
+            "word_count": 31,
+            "target_range": "50-200 words",
+            "reasoning": "31 words for SD level (target: 50-200)"
+          }
+        },
+        "llm_judge": {
+          "judge_model": "gpt-oss-120b",
+          "reasoning_quality": {
+            "score_raw": 5,
+            "score_normalized": 1.0,
+            "reasoning": "Menjelaskan langkah konversi lusin ke butir dengan perkalian secara jelas."
+          },
+          "level_appropriateness": {
+            "score_raw": 5,
+            "score_normalized": 1.0,
+            "reasoning": "Bahasa sederhana dan cocok untuk siswa kelas 4 SD."
+          },
+          "hallucination_risk": {
+            "level": "low",
+            "score": 1.0,
+            "reasoning": "Semua pernyataan sesuai dengan fakta dan tidak ada informasi tambahan yang tidak diperlukan."
+          },
+          "composite_judge_score": 1.0,
+          "raw_judge_response": "{\n  \"reasoning_quality\": {\n    \"score\": 5,\n    \"reasoning\": \"Menjelaskan langkah konversi lusin ke butir dengan perkalian secara jelas.\"\n  },\n  \"level_appropriateness\": {\n    \"score\": 5,\n    \"reasoning\": \"Bahasa sederhana dan cocok untuk siswa kelas 4 SD.\"\n  },\n  \"hallucination_risk\": {\n    \"level\": \"low\",\n    \"reasoning\": \"Semua pernyataan sesuai dengan fakta dan tidak ada informasi tambahan yang tidak diperlukan.\"\n  }\n}",
+          "parse_error": null
+        }
+      },
+      {
+        "model_key": "nemotron-nano",
+        "model_name": "nvidia/nemotron-3-nano-30b-a3b:free",
+        "response": "**Jawaban:** Ibu membeli **36 butir telur**.\n\n**Langkah‑langkah penyelesaian:**\n\n1. **Kenali nilai satu lusin.**  \n   - 1 lusin = 12 butir.\n\n2. **Hitung berapa lusin yang dibeli.**  \n   - Ibu membeli 3 lusin.\n\n3. **Kalikan jumlah lusin dengan nilai satu lusin.**  \n   \\[\n   3 \\text{ lusin} \\times 12 \\text{ butir per lusin}\n   = 3 \\times 12\n   = 36 \\text{ butir}\n   \\]\n\nJadi, Ibu membeli **36 butir telur**. 🎉",
+        "latency_ms": 2134,
+        "error": null,
+        "auto_eval": {
+          "composite_auto_score": 0.835,
+          "accuracy": {
+            "score": 0.67,
+            "method": "keyword_match",
+            "reasoning": "Key concepts: 1/2 matched. Numeric values: 1/1 matched."
+          },
+          "structure": {
+            "score": 1.0,
+            "method": "structure_check",
+            "reasoning": {
+              "has_numbered_steps": true,
+              "has_bullet_points": true,
+              "has_causal_connectors": true,
+              "multi_sentence": true,
+              "has_formula_or_equation": true
+            }
+          },
+          "length": {
+            "score": 1.0,
+            "method": "length_check",
+            "word_count": 64,
+            "target_range": "50-200 words",
+            "reasoning": "64 words for SD level (target: 50-200)"
+          }
+        },
+        "llm_judge": {
+          "judge_model": "gpt-oss-120b",
+          "reasoning_quality": {
+            "score_raw": 5,
+            "score_normalized": 1.0,
+            "reasoning": "Langkah-langkah lengkap, logis, dan menghitung dengan benar."
+          },
+          "level_appropriateness": {
+            "score_raw": 5,
+            "score_normalized": 1.0,
+            "reasoning": "Bahasa sederhana dan cocok untuk siswa kelas 4 SD."
+          },
+          "hallucination_risk": {
+            "level": "low",
+            "score": 1.0,
+            "reasoning": "Semua pernyataan dapat diverifikasi dan sesuai dengan jawaban referensi."
+          },
+          "composite_judge_score": 1.0,
+          "raw_judge_response": "{\n  \"reasoning_quality\": {\n    \"score\": 5,\n    \"reasoning\": \"Langkah-langkah lengkap, logis, dan menghitung dengan benar.\"\n  },\n  \"level_appropriateness\": {\n    \"score\": 5,\n    \"reasoning\": \"Bahasa sederhana dan cocok untuk siswa kelas 4 SD.\"\n  },\n  \"hallucination_risk\": {\n    \"level\": \"low\",\n    \"reasoning\": \"Semua pernyataan dapat diverifikasi dan sesuai dengan jawaban referensi.\"\n  }\n}",
+          "parse_error": null
+        }
+      }
+    ],
+    "evaluated_at": "20260606_124828",
+    "pipeline_version": "v2_langchain"
+  },
+  {
+    "question_id": "MTK-SMP-001",
+    "subject": "Matematika",
+    "level": "SMP",
+    "grade": "Kelas 7",
+    "question": "Tentukan nilai x dari persamaan linear berikut: 3x + 7 = 22",
+    "ground_truth": "3x + 7 = 22 → 3x = 22 - 7 → 3x = 15 → x = 15/3 → x = 5.",
+    "expected_answer_short": "x = 5",
+    "model_responses": [
+      {
+        "model_key": "gpt-oss-120b",
+        "model_name": "openai/gpt-oss-120b:free",
+        "response": "**Persamaan:**  \n\\(3x + 7 = 22\\)\n\n**Langkah‑langkah penyelesaian**\n\n1. **Kurangkan 7 dari kedua sisi** supaya yang mengandung \\(x\\) berdiri sendiri.  \n   \\[\n   3x + 7 - 7 = 22 - 7\n   \\]\n   \\[\n   3x = 15\n   \\]\n\n2. **Bagi kedua sisi dengan 3** (koefisien di depan \\(x\\)).  \n   \\[\n   \\frac{3x}{3} = \\frac{15}{3}\n   \\]\n   \\[\n   x = 5\n   \\]\n\n**Jadi, nilai \\(x\\) adalah \\(\\boxed{5}\\).**",
+        "latency_ms": 6525,
+        "error": null,
+        "auto_eval": {
+          "composite_auto_score": 0.587,
+          "accuracy": {
+            "score": 0.33,
+            "method": "keyword_match",
+            "reasoning": "Key concepts: 0/2 matched. Numeric values: 1/1 matched."
+          },
+          "structure": {
+            "score": 1.0,
+            "method": "structure_check",
+            "reasoning": {
+              "has_numbered_steps": true,
+              "has_bullet_points": true,
+              "has_causal_connectors": true,
+              "multi_sentence": true,
+              "has_formula_or_equation": true
+            }
+          },
+          "length": {
+            "score": 0.61,
+            "method": "length_check",
+            "word_count": 61,
+            "target_range": "100-300 words",
+            "reasoning": "61 words for SMP level (target: 100-300)"
+          }
+        },
+        "llm_judge": {
+          "judge_model": "gpt-oss-120b",
+          "reasoning_quality": {
+            "score_raw": 5,
+            "score_normalized": 1.0,
+            "reasoning": "Langkah-langkah penyelesaian lengkap, logis, dan sesuai dengan prosedur aljabar."
+          },
+          "level_appropriateness": {
+            "score_raw": 5,
+            "score_normalized": 1.0,
+            "reasoning": "Bahasa sederhana dan jelas, cocok untuk siswa SMP."
+          },
+          "hallucination_risk": {
+            "level": "low",
+            "score": 1.0,
+            "reasoning": "Semua pernyataan dapat diverifikasi dan sesuai dengan jawaban referensi."
+          },
+          "composite_judge_score": 1.0,
+          "raw_judge_response": "{\n  \"reasoning_quality\": {\n    \"score\": 5,\n    \"reasoning\": \"Langkah-langkah penyelesaian lengkap, logis, dan sesuai dengan prosedur aljabar.\"\n  },\n  \"level_appropriateness\": {\n    \"score\": 5,\n    \"reasoning\": \"Bahasa sederhana dan jelas, cocok untuk siswa SMP.\"\n  },\n  \"hallucination_risk\": {\n    \"level\": \"low\",\n    \"reasoning\": \"Semua pernyataan dapat diverifikasi dan sesuai dengan jawaban referensi.\"\n  }\n}",
+          "parse_error": null
+        }
+      },
+      {
+        "model_key": "gemma-4-31b",
+        "model_name": "google/gemma-4-31b-it:free",
+        "response": "Halo! Mari kita selesaikan soal persamaan linear ini bersama-sama.\n\nUntuk mencari nilai **x**, tujuan utama kita adalah membuat **x berdiri sendiri** di satu sisi persamaan. Berikut adalah langkah-langkah penyelesaiannya:\n\n### **Diketahui:**\n$3x + 7 = 22$\n\n### **Langkah-langkah Penyelesaian:**\n\n**1. Pindahkan konstanta (angka tanpa variabel)**\nKita ingin memindahkan angka $+7$ ke ruas kanan. Caranya adalah dengan mengurang kedua ruas dengan angka $7$ (atau pindah ruas menjadi negatif).\n$$3x = 22 - 7$$\n$$3x = 15$$\n\n**2. Cari nilai x dengan pembagian**\nSekarang kita punya $3x = 15$. Artinya, 3 dikali $x$ adalah 15. Untuk mendapatkan nilai $x$, kita harus membagi kedua ruas dengan angka $3$.\n$$x = \\frac{15}{3}$$\n$$x = 5$$\n\n---\n\n### **Hasil Akhir:**\nNilai **x** dari persamaan tersebut adalah **5**.\n\n### **Pembuktian (Opsional):**\nUntuk memastikan jawaban kita benar, kita bisa memasukkan angka $5$ kembali ke dalam persamaan awal:\n$3(5) + 7 = 22$\n$15 + 7 = 22$\n$22 = 22$ (**Benar!**)\n\nSemoga penjelasan ini membantumu belajar! Jika ada yang kurang jelas, silakan tanya lagi ya.",
+        "latency_ms": 5683,
+        "error": null,
+        "auto_eval": {
+          "composite_auto_score": 0.605,
+          "accuracy": {
+            "score": 0.33,
+            "method": "keyword_match",
+            "reasoning": "Key concepts: 0/2 matched. Numeric values: 1/1 matched."
+          },
+          "structure": {
+            "score": 0.8,
+            "method": "structure_check",
+            "reasoning": {
+              "has_numbered_steps": true,
+              "has_bullet_points": true,
+              "has_causal_connectors": false,
+              "multi_sentence": true,
+              "has_formula_or_equation": true
+            }
+          },
+          "length": {
+            "score": 1.0,
+            "method": "length_check",
+            "word_count": 168,
+            "target_range": "100-300 words",
+            "reasoning": "168 words for SMP level (target: 100-300)"
+          }
+        },
+        "llm_judge": {
+          "judge_model": "gpt-oss-120b",
+          "reasoning_quality": {
+            "score_raw": 5,
+            "score_normalized": 1.0,
+            "reasoning": "Langkah-langkah penyelesaian lengkap, logis, dan sesuai dengan solusi referensi."
+          },
+          "level_appropriateness": {
+            "score_raw": 5,
+            "score_normalized": 1.0,
+            "reasoning": "Bahasa sederhana, jelas, dan cocok untuk siswa SMP."
+          },
+          "hallucination_risk": {
+            "level": "low",
+            "score": 1.0,
+            "reasoning": "Semua pernyataan dapat diverifikasi dan konsisten dengan jawaban referensi."
+          },
+          "composite_judge_score": 1.0,
+          "raw_judge_response": "{\n  \"reasoning_quality\": {\n    \"score\": 5,\n    \"reasoning\": \"Langkah-langkah penyelesaian lengkap, logis, dan sesuai dengan solusi referensi.\"\n  },\n  \"level_appropriateness\": {\n    \"score\": 5,\n    \"reasoning\": \"Bahasa sederhana, jelas, dan cocok untuk siswa SMP.\"\n  },\n  \"hallucination_risk\": {\n    \"level\": \"low\",\n    \"reasoning\": \"Semua pernyataan dapat diverifikasi dan konsisten dengan jawaban referensi.\"\n  }\n}",
+          "parse_error": null
+        }
+      },
+      {
+        "model_key": "nemotron-super",
+        "model_name": "nvidia/nemotron-3-super-120b-a12b:free",
+        "response": "**Langkah‑langkah penyelesaian**\n\n1. **Tulis persamaan**  \n   \\[\n   3x + 7 = 22\n   \\]\n\n2. **Pindahkan konstanta ke sisi kanan** (kurangi 7 dari kedua sisi)  \n   \\[\n   3x + 7 - 7 = 22 - 7 \\;\\Longrightarrow\\; 3x = 15\n   \\]\n\n3. **Isolasi variabel \\(x\\)** (bagi kedua sisi dengan 3)  \n   \\[\n   \\frac{3x}{3} = \\frac{15}{3} \\;\\Longrightarrow\\; x = 5\n   \\]\n\n**Jawaban:**  \n\\[\n\\boxed{x = 5}\n\\]",
+        "latency_ms": 22298,
+        "error": null,
+        "auto_eval": {
+          "composite_auto_score": 0.529,
+          "accuracy": {
+            "score": 0.33,
+            "method": "keyword_match",
+            "reasoning": "Key concepts: 0/2 matched. Numeric values: 1/1 matched."
+          },
+          "structure": {
+            "score": 0.8,
+            "method": "structure_check",
+            "reasoning": {
+              "has_numbered_steps": true,
+              "has_bullet_points": true,
+              "has_causal_connectors": false,
+              "multi_sentence": true,
+              "has_formula_or_equation": true
+            }
+          },
+          "length": {
+            "score": 0.62,
+            "method": "length_check",
+            "word_count": 62,
+            "target_range": "100-300 words",
+            "reasoning": "62 words for SMP level (target: 100-300)"
+          }
+        },
+        "llm_judge": {
+          "judge_model": "gpt-oss-120b",
+          "reasoning_quality": {
+            "score_raw": 5,
+            "score_normalized": 1.0,
+            "reasoning": "Langkah‑langkah lengkap, logis, dan sesuai dengan penyelesaian standar."
+          },
+          "level_appropriateness": {
+            "score_raw": 5,
+            "score_normalized": 1.0,
+            "reasoning": "Bahasa sederhana dan jelas untuk siswa SMP, tanpa istilah yang membingungkan."
+          },
+          "hallucination_risk": {
+            "level": "low",
+            "score": 1.0,
+            "reasoning": "Semua pernyataan dapat diverifikasi dan cocok dengan jawaban referensi."
+          },
+          "composite_judge_score": 1.0,
+          "raw_judge_response": "{\n  \"reasoning_quality\": {\n    \"score\": 5,\n    \"reasoning\": \"Langkah‑langkah lengkap, logis, dan sesuai dengan penyelesaian standar.\"\n  },\n  \"level_appropriateness\": {\n    \"score\": 5,\n    \"reasoning\": \"Bahasa sederhana dan jelas untuk siswa SMP, tanpa istilah yang membingungkan.\"\n  },\n  \"hallucination_risk\": {\n    \"level\": \"low\",\n    \"reasoning\": \"Semua pernyataan dapat diverifikasi dan cocok dengan jawaban referensi.\"\n  }\n}",
+          "parse_error": null
+        }
+      },
+      {
+        "model_key": "nemotron-nano",
+        "model_name": "nvidia/nemotron-3-nano-30b-a3b:free",
+        "response": "**Soal:**\\(3x + 7 = 22\\)\n\n**Langkah‑langkah penyelesaian:**\n\n1. **Isolasi suku yang berisi \\(x\\).**  \n   Kita hapus angka 7 di sisi kiri dengan mengurangkan 7 dari kedua sisi persamaan.\n\n   \\[\n   \\begin{aligned}\n   3x + 7 - 7 &= 22 - 7 \\\\\n   3x &= 15\n   \\end{aligned}\n   \\]\n\n2. **Bersihkan koefisien 3 yang mengkalikan \\(x\\).**  \n   Karena \\(3x\\) berarti \\(3 \\times x\\), kita bagi kedua sisi dengan 3.\n\n   \\[\n   \\begin{aligned}\n   \\frac{3x}{3} &= \\frac{15}{3} \\\\\n   x &= 5   \\end{aligned}\n   \\]\n\n3. **Cek hasil (opsional).**  \n   Ganti \\(x = 5\\) kembali ke persamaan asli:\n\n   \\[   3(5) + 7 = 15 + 7 = 22\n   \\]\n\n   Hasilnya sama dengan kanan persamaan, jadi solusi sudah benar.\n\n---\n\n**Jawaban:**  \\[\n\\boxed{x = 5}\n\\]",
+        "latency_ms": 1934,
+        "error": null,
+        "auto_eval": {
+          "composite_auto_score": 0.665,
+          "accuracy": {
+            "score": 0.33,
+            "method": "keyword_match",
+            "reasoning": "Key concepts: 0/2 matched. Numeric values: 1/1 matched."
+          },
+          "structure": {
+            "score": 1.0,
+            "method": "structure_check",
+            "reasoning": {
+              "has_numbered_steps": true,
+              "has_bullet_points": true,
+              "has_causal_connectors": true,
+              "multi_sentence": true,
+              "has_formula_or_equation": true
+            }
+          },
+          "length": {
+            "score": 1.0,
+            "method": "length_check",
+            "word_count": 113,
+            "target_range": "100-300 words",
+            "reasoning": "113 words for SMP level (target: 100-300)"
+          }
+        },
+        "llm_judge": {
+          "judge_model": "gpt-oss-120b",
+          "reasoning_quality": {
+            "score_raw": 5,
+            "score_normalized": 1.0,
+            "reasoning": "Langkah-langkah disajikan lengkap, logis, dan mudah diikuti."
+          },
+          "level_appropriateness": {
+            "score_raw": 5,
+            "score_normalized": 1.0,
+            "reasoning": "Bahasa sederhana dan sesuai untuk siswa SMP, tanpa istilah teknis berlebih."
+          },
+          "hallucination_risk": {
+            "level": "low",
+            "score": 1.0,
+            "reasoning": "Semua pernyataan dapat diverifikasi dan cocok dengan jawaban referensi."
+          },
+          "composite_judge_score": 1.0,
+          "raw_judge_response": "{\n  \"reasoning_quality\": {\n    \"score\": 5,\n    \"reasoning\": \"Langkah-langkah disajikan lengkap, logis, dan mudah diikuti.\"\n  },\n  \"level_appropriateness\": {\n    \"score\": 5,\n    \"reasoning\": \"Bahasa sederhana dan sesuai untuk siswa SMP, tanpa istilah teknis berlebih.\"\n  },\n  \"hallucination_risk\": {\n    \"level\": \"low\",\n    \"reasoning\": \"Semua pernyataan dapat diverifikasi dan cocok dengan jawaban referensi.\"\n  }\n}",
+          "parse_error": null
+        }
+      }
+    ],
+    "evaluated_at": "20260606_124828",
+    "pipeline_version": "v2_langchain"
+  },
+  {
+    "question_id": "MTK-SMP-002",
+    "subject": "Matematika",
+    "level": "SMP",
+    "grade": "Kelas 8",
+    "question": "Jika sebuah segitiga siku-siku memiliki dua sisi tegak sepanjang 6 cm dan 8 cm, berapakah panjang hipotenusanya?",
+    "ground_truth": "Menggunakan teorema Pythagoras: c² = a² + b² = 6² + 8² = 36 + 64 = 100. Jadi c = √100 = 10 cm.",
+    "expected_answer_short": "10 cm",
+    "model_responses": [
+      {
+        "model_key": "gpt-oss-120b",
+        "model_name": "openai/gpt-oss-120b:free",
+        "response": "**Diketahui**\n- Segitiga siku‑siku dengan dua sisi tegak (sisi‑sisi yang membentuk sudut 90°) :  \n  \\(a = 6 \\text{ cm}\\)  \n  \\(b = 8 \\text{ cm}\\)\n\n**Ditanya**\n- Panjang hipotenusa \\(c\\) (sisi yang berlawanan dengan sudut siku‑siku).\n\n**Rumus yang dipakai**\nUntuk segitiga siku‑siku, berlaku **Teorema Pythagoras** :\n\n\\[\nc^{2}=a^{2}+b^{2}\n\\]\n\n**Langkah‑langkah penyelesaian**\n\n1. Hitung kuadrat masing‑masing sisi tegak  \n   \\[\n   a^{2}=6^{2}=36\n   \\]  \n   \\[\n   b^{2}=8^{2}=64\n   \\]\n\n2. Jumlahkan kedua kuadrat tersebut  \n   \\[\n   a^{2}+b^{2}=36+64=100\n   \\]\n\n3. Ambil akar kuadrat dari hasil penjumlahan untuk mendapatkan \\(c\\)  \n   \\[\n   c=\\sqrt{100}=10\n   \\]\n\n**Jawaban**\n\nPanjang hipotenusa segitiga tersebut adalah **10 cm**.",
+        "latency_ms": 9850,
+        "error": null,
+        "auto_eval": {
+          "composite_auto_score": 0.757,
+          "accuracy": {
+            "score": 0.67,
+            "method": "keyword_match",
+            "reasoning": "Key concepts: 1/2 matched. Numeric values: 1/1 matched."
+          },
+          "structure": {
+            "score": 0.8,
+            "method": "structure_check",
+            "reasoning": {
+              "has_numbered_steps": true,
+              "has_bullet_points": true,
+              "has_causal_connectors": false,
+              "multi_sentence": true,
+              "has_formula_or_equation": true
+            }
+          },
+          "length": {
+            "score": 0.91,
+            "method": "length_check",
+            "word_count": 91,
+            "target_range": "100-300 words",
+            "reasoning": "91 words for SMP level (target: 100-300)"
+          }
+        },
+        "llm_judge": {
+          "judge_model": "gpt-oss-120b",
+          "reasoning_quality": {
+            "score_raw": 5,
+            "score_normalized": 1.0,
+            "reasoning": "Menjelaskan langkah demi langkah dengan teorema Pythagoras secara lengkap dan benar."
+          },
+          "level_appropriateness": {
+            "score_raw": 5,
+            "score_normalized": 1.0,
+            "reasoning": "Bahasa sederhana dan terstruktur cocok untuk siswa SMP."
+          },
+          "hallucination_risk": {
+            "level": "low",
+            "score": 1.0,
+            "reasoning": "Semua pernyataan dapat diverifikasi dan sesuai dengan jawaban referensi."
+          },
+          "composite_judge_score": 1.0,
+          "raw_judge_response": "{\n  \"reasoning_quality\": {\n    \"score\": 5,\n    \"reasoning\": \"Menjelaskan langkah demi langkah dengan teorema Pythagoras secara lengkap dan benar.\"\n  },\n  \"level_appropriateness\": {\n    \"score\": 5,\n    \"reasoning\": \"Bahasa sederhana dan terstruktur cocok untuk siswa SMP.\"\n  },\n  \"hallucination_risk\": {\n    \"level\": \"low\",\n    \"reasoning\": \"Semua pernyataan dapat diverifikasi dan sesuai dengan jawaban referensi.\"\n  }\n}",
+          "parse_error": null
+        }
+      },
+      {
+        "model_key": "gemma-4-31b",
+        "model_name": "google/gemma-4-31b-it:free",
+        "response": "Halo! Mari kita selesaikan soal ini bersama-sama.\n\nUntuk mencari panjang hipotenusa (sisi miring) pada segitiga siku-siku, kita menggunakan rumus yang sangat terkenal, yaitu **Teorema Pythagoras**.\n\n### 1. Memahami Konsep\nDalam segitiga siku-siku, hipotenusa adalah sisi terpanjang yang berada tepat di depan sudut siku-siku. Rumusnya adalah:\n$$c^2 = a^2 + b^2$$\n\n**Keterangan:**\n*   $c$ = Hipotenusa (sisi miring)\n*   $a$ dan $b$ = Sisi-sisi tegak (sisi siku-siku)\n\n---\n\n### 2. Diketahui dari Soal\n*   Sisi tegak pertama ($a$) = $6\\text{ cm}$\n*   Sisi tegak kedua ($b$) = $8\\text{ cm}$\n*   Ditanya: Panjang hipotenusa ($c$)?\n\n---\n\n### 3. Langkah Penyelesaian\nMari kita masukkan angka-angka tersebut ke dalam rumus:\n\n**Langkah 1: Masukkan nilai ke dalam rumus**\n$$c^2 = 6^2 + 8^2$$\n\n**Langkah 2: Hitung hasil kuadratnya**\n$$c^2 = 36 + 64$$\n\n**Langkah 3: Jumlahkan kedua hasil tersebut**\n$$c^2 = 100$$\n\n**Langkah 4: Cari akar kuadrat dari hasil penjumlahan untuk mendapatkan nilai $c$**\n$$c = \\sqrt{100}$$\n$$c = 10\\text{ cm}$$\n\n---\n\n### Kesimpulan\nJadi, panjang hipotenusa dari segitiga siku-siku tersebut adalah **10 cm**.\n\n**Tips Belajar:**\nAngka 6, 8, dan 10 adalah bagian dari **Tripel Pythagoras**. Jika kamu sering berlatih, kamu akan hafal bahwa kombinasi angka $3, 4, 5$ jika dikalikan dua akan menjadi $6, 8, 10$. Ini bisa membantu kamu menjawab soal serupa dengan lebih cepat!",
+        "latency_ms": 9147,
+        "error": null,
+        "auto_eval": {
+          "composite_auto_score": 1.0,
+          "accuracy": {
+            "score": 1.0,
+            "method": "keyword_match",
+            "reasoning": "Key concepts: 2/2 matched. Numeric values: 1/1 matched."
+          },
+          "structure": {
+            "score": 1.0,
+            "method": "structure_check",
+            "reasoning": {
+              "has_numbered_steps": true,
+              "has_bullet_points": true,
+              "has_causal_connectors": true,
+              "multi_sentence": true,
+              "has_formula_or_equation": true
+            }
+          },
+          "length": {
+            "score": 1.0,
+            "method": "length_check",
+            "word_count": 212,
+            "target_range": "100-300 words",
+            "reasoning": "212 words for SMP level (target: 100-300)"
+          }
+        },
+        "llm_judge": {
+          "judge_model": "gpt-oss-120b",
+          "reasoning_quality": {
+            "score_raw": 5,
+            "score_normalized": 1.0,
+            "reasoning": "Langkah-langkah lengkap, logis, dan sesuai dengan teorema Pythagoras."
+          },
+          "level_appropriateness": {
+            "score_raw": 5,
+            "score_normalized": 1.0,
+            "reasoning": "Bahasa sederhana, penjelasan terstruktur, cocok untuk siswa SMP."
+          },
+          "hallucination_risk": {
+            "level": "low",
+            "score": 1.0,
+            "reasoning": "Semua pernyataan dapat diverifikasi dan sesuai dengan jawaban referensi."
+          },
+          "composite_judge_score": 1.0,
+          "raw_judge_response": "{\n  \"reasoning_quality\": {\n    \"score\": 5,\n    \"reasoning\": \"Langkah-langkah lengkap, logis, dan sesuai dengan teorema Pythagoras.\"\n  },\n  \"level_appropriateness\": {\n    \"score\": 5,\n    \"reasoning\": \"Bahasa sederhana, penjelasan terstruktur, cocok untuk siswa SMP.\"\n  },\n  \"hallucination_risk\": {\n    \"level\": \"low\",\n    \"reasoning\": \"Semua pernyataan dapat diverifikasi dan sesuai dengan jawaban referensi.\"\n  }\n}",
+          "parse_error": null
+        }
+      },
+      {
+        "model_key": "nemotron-super",
+        "model_name": "nvidia/nemotron-3-super-120b-a12b:free",
+        "response": "Untuk segitiga siku‑siku, panjang hipotenusa \\(c\\) dapat dicari dengan teorema Pythagoras:\n\n\\[\nc^{2}=a^{2}+b^{2}\n\\]\n\ndi mana \\(a\\) dan \\(b\\) adalah panjang dua sisi tegak.\n\n**Langkah‑langkah:**\n\n1. Masukkan nilai sisi tegak:  \n   \\(a = 6\\text{ cm}\\)  \n   \\(b = 8\\text{ cm}\\)\n\n2. Hitung kuadrat masing‑masing:  \n   \\(a^{2}=6^{2}=36\\)  \n   \\(b^{2}=8^{2}=64\\)\n\n3. Jumlahkan kuadrat‑kuadrat tersebut:  \n   \\(a^{2}+b^{2}=36+64=100\\)\n\n4. Akarkan hasilnya untuk mendapatkan \\(c\\):  \n   \\(c=\\sqrt{100}=10\\)\n\n**Jawaban:** Panjang hipotenusa segitiga siku‑siku tersebut adalah **10 cm**.",
+        "latency_ms": 5283,
+        "error": null,
+        "auto_eval": {
+          "composite_auto_score": 0.705,
+          "accuracy": {
+            "score": 0.67,
+            "method": "keyword_match",
+            "reasoning": "Key concepts: 1/2 matched. Numeric values: 1/1 matched."
+          },
+          "structure": {
+            "score": 0.8,
+            "method": "structure_check",
+            "reasoning": {
+              "has_numbered_steps": true,
+              "has_bullet_points": true,
+              "has_causal_connectors": false,
+              "multi_sentence": true,
+              "has_formula_or_equation": true
+            }
+          },
+          "length": {
+            "score": 0.65,
+            "method": "length_check",
+            "word_count": 65,
+            "target_range": "100-300 words",
+            "reasoning": "65 words for SMP level (target: 100-300)"
+          }
+        },
+        "llm_judge": {
+          "judge_model": "gpt-oss-120b",
+          "reasoning_quality": {
+            "score_raw": 5,
+            "score_normalized": 1.0,
+            "reasoning": "Menjelaskan langkah Pythagoras secara lengkap dan akurat."
+          },
+          "level_appropriateness": {
+            "score_raw": 5,
+            "score_normalized": 1.0,
+            "reasoning": "Bahasa sederhana dan cocok untuk siswa SMP."
+          },
+          "hallucination_risk": {
+            "level": "low",
+            "score": 1.0,
+            "reasoning": "Semua pernyataan dapat diverifikasi dan sesuai dengan jawaban referensi."
+          },
+          "composite_judge_score": 1.0,
+          "raw_judge_response": "{\n  \"reasoning_quality\": {\n    \"score\": 5,\n    \"reasoning\": \"Menjelaskan langkah Pythagoras secara lengkap dan akurat.\"\n  },\n  \"level_appropriateness\": {\n    \"score\": 5,\n    \"reasoning\": \"Bahasa sederhana dan cocok untuk siswa SMP.\"\n  },\n  \"hallucination_risk\": {\n    \"level\": \"low\",\n    \"reasoning\": \"Semua pernyataan dapat diverifikasi dan sesuai dengan jawaban referensi.\"\n  }\n}",
+          "parse_error": null
+        }
+      },
+      {
+        "model_key": "nemotron-nano",
+        "model_name": "nvidia/nemotron-3-nano-30b-a3b:free",
+        "response": "**Jawaban:**  \nPanjang hipotenusa segitiga siku‑siku tersebut adalah **10 cm**.\n\n---\n\n### Langkah‑langkah penyelesaian\n\n1. **Kenali sisi‑sisi yang diketahui**  \n   - Sisi tegak (yang membentuk sudut siku‑siku) = 6 cm dan 8 cm.  \n   - Sisi yang berlawanan dengan sudut siku‑siku (hipotenusa) = ?  \n\n2. **Gunakan Teorema Pitagoras**     Untuk segitiga siku‑siku, panjang sisi‑sisi memenuhi:  \n\n   \\[\n   a^{2}+b^{2}=c^{2}\n   \\]\n\n   di mana  \n   - \\(a\\) dan \\(b\\) adalah sisi tegak,  \n   - \\(c\\) adalah hipotenusa.\n\n3. **Masukkan nilai yang diketahui**  \n\n   \\[   6^{2}+8^{2}=c^{2}\n   \\]\n\n   \\[\n   36+64=c^{2}\n   \\]\n\n   \\[\n   100=c^{2}\n   \\]\n\n4. **Hitung nilai \\(c\\)**  \n\n   \\[\n   c=\\sqrt{100}=10\n   \\]\n\n   Karena panjang sisi tidak bisa negatif, kita ambil nilai positif.\n\n5. **Hasil akhir**  \n\n   Hipotenusa = **10 cm**.\n\n---\n\n### Ringkasan singkat- Gunakan rumus \\(a^{2}+b^{2}=c^{2}\\).  - Substitusi \\(a=6\\) cm dan \\(b=8\\) cm.  \n- Hitung \\(6^{2}+8^{2}=100\\).  - Ambil akar kuadrat dari 100, yaitu 10.  - Jadi, hipotenusanya adalah **10 cm**.  \n\nSemoga penjelasan ini mudah dimengerti! 🚀",
+        "latency_ms": 3211,
+        "error": null,
+        "auto_eval": {
+          "composite_auto_score": 0.665,
+          "accuracy": {
+            "score": 0.33,
+            "method": "keyword_match",
+            "reasoning": "Key concepts: 0/2 matched. Numeric values: 1/1 matched."
+          },
+          "structure": {
+            "score": 1.0,
+            "method": "structure_check",
+            "reasoning": {
+              "has_numbered_steps": true,
+              "has_bullet_points": true,
+              "has_causal_connectors": true,
+              "multi_sentence": true,
+              "has_formula_or_equation": true
+            }
+          },
+          "length": {
+            "score": 1.0,
+            "method": "length_check",
+            "word_count": 142,
+            "target_range": "100-300 words",
+            "reasoning": "142 words for SMP level (target: 100-300)"
+          }
+        },
+        "llm_judge": {
+          "judge_model": "gpt-oss-120b",
+          "reasoning_quality": {
+            "score_raw": 5,
+            "score_normalized": 1.0,
+            "reasoning": "Menjelaskan semua langkah Pythagoras secara lengkap dan logis, termasuk substitusi nilai dan pengambilan akar."
+          },
+          "level_appropriateness": {
+            "score_raw": 5,
+            "score_normalized": 1.0,
+            "reasoning": "Bahasa sederhana, langkah terstruktur, cocok untuk siswa SMP."
+          },
+          "hallucination_risk": {
+            "level": "low",
+            "score": 1.0,
+            "reasoning": "Semua pernyataan sesuai dengan fakta dan jawaban referensi."
+          },
+          "composite_judge_score": 1.0,
+          "raw_judge_response": "{\n  \"reasoning_quality\": {\n    \"score\": 5,\n    \"reasoning\": \"Menjelaskan semua langkah Pythagoras secara lengkap dan logis, termasuk substitusi nilai dan pengambilan akar.\"\n  },\n  \"level_appropriateness\": {\n    \"score\": 5,\n    \"reasoning\": \"Bahasa sederhana, langkah terstruktur, cocok untuk siswa SMP.\"\n  },\n  \"hallucination_risk\": {\n    \"level\": \"low\",\n    \"reasoning\": \"Semua pernyataan sesuai dengan fakta dan jawaban referensi.\"\n  }\n}",
+          "parse_error": null
+        }
+      }
+    ],
+    "evaluated_at": "20260606_124828",
+    "pipeline_version": "v2_langchain"
+  },
+  {
+    "question_id": "MTK-SMA-001",
+    "subject": "Matematika",
+    "level": "SMA",
+    "grade": "Kelas 10",
+    "question": "Tentukan turunan dari fungsi f(x) = 3x³ - 2x² + 5x - 1",
+    "ground_truth": "f'(x) = 9x² - 4x + 5. Menggunakan aturan power rule: turunan dari ax^n adalah n·ax^(n-1).",
+    "expected_answer_short": "f'(x) = 9x² - 4x + 5",
+    "model_responses": [
+      {
+        "model_key": "gpt-oss-120b",
+        "model_name": "openai/gpt-oss-120b:free",
+        "response": "**Fungsi yang diberikan**\n\n\\[\nf(x)=3x^{3}-2x^{2}+5x-1\n\\]\n\n**Langkah‑langkah mencari turunan \\(f'(x)\\)**  \n\n1. **Gunakan aturan turunan dasar**  \n   - Turunan dari \\(x^{n}\\) adalah \\(n x^{\\,n-1}\\).  \n   - Turunan dari suatu konstanta (misalnya \\(-1\\)) adalah 0.  \n   - Turunan dari penjumlahan atau pengurangan fungsi adalah penjumlahan atau pengurangan turunan masing‑masing.\n\n2. **Terapkan aturan pada tiap suku**\n\n| Suku pada \\(f(x)\\) | Bentuk umum | Turunan |\n|--------------------|-------------|----------|\n| \\(3x^{3}\\) | \\(3 \\cdot x^{3}\\) | \\(3 \\cdot 3x^{2}=9x^{2}\\) |\n| \\(-2x^{2}\\) | \\(-2 \\cdot x^{2}\\) | \\(-2 \\cdot 2x = -4x\\) |\n| \\(5x\\) | \\(5 \\cdot x^{1}\\) | \\(5 \\cdot 1 = 5\\) |\n| \\(-1\\) | konstanta | \\(0\\) |\n\n3. **Jumlahkan semua turunan suku**\n\n\\[\nf'(x)=9x^{2}-4x+5\n\\]\n\n---\n\n### Jawaban\n\\[\n\\boxed{f'(x)=9x^{2}-4x+5}\n\\]",
+        "latency_ms": 10791,
+        "error": null,
+        "auto_eval": {
+          "composite_auto_score": 0.648,
+          "accuracy": {
+            "score": 0.5,
+            "method": "keyword_match",
+            "reasoning": "Key concepts: 0/3 matched. Numeric values: 3/3 matched."
+          },
+          "structure": {
+            "score": 0.8,
+            "method": "structure_check",
+            "reasoning": {
+              "has_numbered_steps": true,
+              "has_bullet_points": true,
+              "has_causal_connectors": false,
+              "multi_sentence": true,
+              "has_formula_or_equation": true
+            }
+          },
+          "length": {
+            "score": 0.79,
+            "method": "length_check",
+            "word_count": 119,
+            "target_range": "150-400 words",
+            "reasoning": "119 words for SMA level (target: 150-400)"
+          }
+        },
+        "llm_judge": {
+          "judge_model": "gpt-oss-120b",
+          "reasoning_quality": {
+            "score_raw": 5,
+            "score_normalized": 1.0,
+            "reasoning": "Menjelaskan langkah demi langkah dengan aturan turunan, tabel suku, dan penyusunan hasil akhir secara tepat."
+          },
+          "level_appropriateness": {
+            "score_raw": 5,
+            "score_normalized": 1.0,
+            "reasoning": "Bahasa sederhana dan terstruktur, cocok untuk pemahaman siswa SMA."
+          },
+          "hallucination_risk": {
+            "level": "low",
+            "score": 1.0,
+            "reasoning": "Semua pernyataan sesuai dengan ground truth dan dapat diverifikasi."
+          },
+          "composite_judge_score": 1.0,
+          "raw_judge_response": "{\n  \"reasoning_quality\": {\n    \"score\": 5,\n    \"reasoning\": \"Menjelaskan langkah demi langkah dengan aturan turunan, tabel suku, dan penyusunan hasil akhir secara tepat.\"\n  },\n  \"level_appropriateness\": {\n    \"score\": 5,\n    \"reasoning\": \"Bahasa sederhana dan terstruktur, cocok untuk pemahaman siswa SMA.\"\n  },\n  \"hallucination_risk\": {\n    \"level\": \"low\",\n    \"reasoning\": \"Semua pernyataan sesuai dengan ground truth dan dapat diverifikasi.\"\n  }\n}",
+          "parse_error": null
+        }
+      },
+      {
+        "model_key": "gemma-4-31b",
+        "model_name": "google/gemma-4-31b-it:free",
+        "response": "Halo! Mari kita selesaikan soal turunan ini bersama-sama.\n\nUntuk menyelesaikan soal ini, kita akan menggunakan **Aturan Dasar Turunan** untuk fungsi pangkat.\n\n### Rumus Dasar\nJika kita memiliki fungsi $f(x) = ax^n$, maka turunannya adalah:\n$$f'(x) = n \\cdot ax^{n-1}$$\n*Artinya: Pangkat turun ke depan untuk dikalikan dengan koefisien, lalu pangkatnya dikurangi satu.*\n\n---\n\n### Langkah-langkah Penyelesaian\n\nFungsi yang diberikan adalah:\n$$f(x) = 3x^3 - 2x^2 + 5x - 1$$\n\nKita akan menurunkan setiap suku satu per satu:\n\n1. **Suku pertama: $3x^3$**\n   - Pangkatnya adalah $3$.\n   - Turunannya: $3 \\cdot 3x^{3-1} = 9x^2$\n\n2. **Suku kedua: $-2x^2$**\n   - Pangkatnya adalah $2$.\n   - Turunannya: $2 \\cdot (-2)x^{2-1} = -4x^1$ atau $-4x$\n\n3. **Suku ketiga: $5x$**\n   - Ingat bahwa $5x$ itu sama dengan $5x^1$.\n   - Turunannya: $1 \\cdot 5x^{1-1} = 5x^0$. Karena $x^0 = 1$, maka hasilnya adalah $5$.\n\n4. **Suku keempat: $-1$**\n   - Angka $-1$ adalah konstanta (tidak memiliki variabel $x$).\n   - Turunan dari setiap konstanta adalah $0$.\n\n---\n\n### Hasil Akhir\n\nSekarang, kita gabungkan semua hasil turunan di atas:\n\n$$f'(x) = 9x^2 - 4x + 5$$\n\n**Jadi, turunan dari fungsi $f(x) = 3x^3 - 2x^2 + 5x - 1$ adalah $f'(x) = 9x^2 - 4x + 5$.**\n\n**Tips Cepat:**\n- Jika ada $x$ pangkat 3 $\\rightarrow$ jadi $x$ pangkat 2.\n- Jika ada $x$ pangkat 2 $\\rightarrow$ jadi $x$ pangkat 1.\n- Jika hanya ada $x$ $\\rightarrow$ hanya tersisa angka koefisiennya.\n- Jika hanya angka $\\rightarrow$ hilang (menjadi 0).",
+        "latency_ms": 7820,
+        "error": null,
+        "auto_eval": {
+          "composite_auto_score": 0.75,
+          "accuracy": {
+            "score": 0.5,
+            "method": "keyword_match",
+            "reasoning": "Key concepts: 0/3 matched. Numeric values: 3/3 matched."
+          },
+          "structure": {
+            "score": 1.0,
+            "method": "structure_check",
+            "reasoning": {
+              "has_numbered_steps": true,
+              "has_bullet_points": true,
+              "has_causal_connectors": true,
+              "multi_sentence": true,
+              "has_formula_or_equation": true
+            }
+          },
+          "length": {
+            "score": 1.0,
+            "method": "length_check",
+            "word_count": 238,
+            "target_range": "150-400 words",
+            "reasoning": "238 words for SMA level (target: 150-400)"
+          }
+        },
+        "llm_judge": {
+          "judge_model": "gpt-oss-120b",
+          "reasoning_quality": {
+            "score_raw": 5,
+            "score_normalized": 1.0,
+            "reasoning": "Menjelaskan langkah per langkah dengan tepat dan menghasilkan jawaban yang benar."
+          },
+          "level_appropriateness": {
+            "score_raw": 5,
+            "score_normalized": 1.0,
+            "reasoning": "Bahasa sederhana, contoh konkret, cocok untuk siswa SMA."
+          },
+          "hallucination_risk": {
+            "level": "low",
+            "score": 1.0,
+            "reasoning": "Semua pernyataan dapat diverifikasi dan sesuai dengan jawaban referensi."
+          },
+          "composite_judge_score": 1.0,
+          "raw_judge_response": "{\n  \"reasoning_quality\": {\n    \"score\": 5,\n    \"reasoning\": \"Menjelaskan langkah per langkah dengan tepat dan menghasilkan jawaban yang benar.\"\n  },\n  \"level_appropriateness\": {\n    \"score\": 5,\n    \"reasoning\": \"Bahasa sederhana, contoh konkret, cocok untuk siswa SMA.\"\n  },\n  \"hallucination_risk\": {\n    \"level\": \"low\",\n    \"reasoning\": \"Semua pernyataan dapat diverifikasi dan sesuai dengan jawaban referensi.\"\n  }\n}",
+          "parse_error": null
+        }
+      },
+      {
+        "model_key": "nemotron-super",
+        "model_name": "nvidia/nemotron-3-super-120b-a12b:free",
+        "response": "Untuk mencari turunan fungsi  \n\\[\nf(x)=3x^{3}-2x^{2}+5x-1,\n\\]  \nkita gunakan aturan turunan pangkat (power rule):  \n\n\\[\n\\frac{d}{dx}\\big(ax^{n}\\big)=a\\,n\\,x^{\\,n-1}.\n\\]\n\nLangkah‑langkah:\n\n1. **Turunan dari \\(3x^{3}\\):**  \n   \\[\n   \\frac{d}{dx}(3x^{3}) = 3 \\cdot 3 x^{3-1}=9x^{2}.\n   \\]\n\n2. **Turunan dari \\(-2x^{2}\\):**  \n   \\[\n   \\frac{d}{dx}(-2x^{2}) = -2 \\cdot 2 x^{2-1}= -4x.\n   \\]\n\n3. **Turunan dari \\(5x\\):**  \n   \\[\n   \\frac{d}{dx}(5x) = 5 \\cdot 1 x^{1-1}=5.\n   \\]\n\n4. **Turunan dari konstanta \\(-1\\):**  \n   Turunan dari konstanta adalah \\(0\\).\n\nMenjumlahkan semua hasil:\n\n\\[\nf'(x)=9x^{2}-4x+5.\n\\]\n\nJadi, turunan dari \\(f(x)=3x^{3}-2x^{2}+5x-1\\) adalah  \n\n\\[\n\\boxed{f'(x)=9x^{2}-4x+5}.\n\\]",
+        "latency_ms": 36451,
+        "error": null,
+        "auto_eval": {
+          "composite_auto_score": 0.821,
+          "accuracy": {
+            "score": 0.83,
+            "method": "keyword_match",
+            "reasoning": "Key concepts: 2/3 matched. Numeric values: 3/3 matched."
+          },
+          "structure": {
+            "score": 1.0,
+            "method": "structure_check",
+            "reasoning": {
+              "has_numbered_steps": true,
+              "has_bullet_points": true,
+              "has_causal_connectors": true,
+              "multi_sentence": true,
+              "has_formula_or_equation": true
+            }
+          },
+          "length": {
+            "score": 0.53,
+            "method": "length_check",
+            "word_count": 79,
+            "target_range": "150-400 words",
+            "reasoning": "79 words for SMA level (target: 150-400)"
+          }
+        },
+        "llm_judge": {
+          "judge_model": "gpt-oss-120b",
+          "reasoning_quality": {
+            "score_raw": 5,
+            "score_normalized": 1.0,
+            "reasoning": "Menjelaskan langkah demi langkah dengan aturan power rule dan menyertakan semua turunan tiap suku secara tepat."
+          },
+          "level_appropriateness": {
+            "score_raw": 5,
+            "score_normalized": 1.0,
+            "reasoning": "Bahasa sederhana, jelas, dan cocok untuk siswa SMA tanpa istilah yang membingungkan."
+          },
+          "hallucination_risk": {
+            "level": "low",
+            "score": 1.0,
+            "reasoning": "Semua pernyataan sesuai dengan ground truth dan dapat diverifikasi."
+          },
+          "composite_judge_score": 1.0,
+          "raw_judge_response": "{\n  \"reasoning_quality\": {\n    \"score\": 5,\n    \"reasoning\": \"Menjelaskan langkah demi langkah dengan aturan power rule dan menyertakan semua turunan tiap suku secara tepat.\"\n  },\n  \"level_appropriateness\": {\n    \"score\": 5,\n    \"reasoning\": \"Bahasa sederhana, jelas, dan cocok untuk siswa SMA tanpa istilah yang membingungkan.\"\n  },\n  \"hallucination_risk\": {\n    \"level\": \"low\",\n    \"reasoning\": \"Semua pernyataan sesuai dengan ground truth dan dapat diverifikasi.\"\n  }\n}",
+          "parse_error": null
+        }
+      },
+      {
+        "model_key": "nemotron-nano",
+        "model_name": "nvidia/nemotron-3-nano-30b-a3b:free",
+        "response": "**Soal:**Tentukan turunan (derivatif) dari fungsi  \n\n\\[\nf(x)=3x^{3}-2x^{2}+5x-1\n\\]\n\n---\n\n## Langkah‑langkah penyelesaian\n\nBerikut urutan langkah yang biasanya dipelajari di kelas XI‑XII:\n\n| No. | Langkah | Penjelasan singkat |\n|-----|---------|--------------------|\n| 1   | Kenali aturan turunan dasar | Untuk fungsi \\(x^{n}\\), turunannya adalah \\(n x^{\\,n-1}\\). |\n| 2   | Terapkan aturan pada setiap suku | Gunakan aturan ini pada setiap potongan polinomial. |\n| 3   | Gunakan aturan koefisien (konsantif) | Jika ada kerucian \\(k\\) di depan suku, hasil turunannya dikalikan dengan \\(k\\). |\n| 4   | Jumlahkan hasil turunan masing‑masing suku | Karena turunan dari jumlah fungsi adalah jumlah turunannya. |\n| 5   | Sederhanakan | Bentukkan persamaan turunan yang paling sederhana. |\n\n### 1. Aturan turunan dasar\n- Jika \\(g(x)=x^{n}\\) maka \\(g'(x)=n x^{\\,n-1}\\).\n- Jika \\(c\\) adalah bilangan konstan, maka \\((c\\cdot g(x))' = c \\cdot g'(x)\\).\n\n### 2. Terapkan pada setiap suku\n\nFungsi \\(f(x)\\) terdiri dari empat suku:\n\n1. \\(3x^{3}\\)  \n2. \\(-2x^{2}\\)  \n3. \\(5x\\)  \n4. \\(-1\\) (konstanta)\n\n#### Suku 1: \\(3x^{3}\\)\n\n- Potensanya \\(n=3\\).  \n- Turunannya: \\(3 \\cdot 3 x^{3-1}=9x^{2}\\).\n\n#### Suku 2: \\(-2x^{2}\\)\n\n- Potensanya \\(n=2\\).  \n- Turunannya: \\(-2 \\cdot 2 x^{2-1}= -4x\\).\n\n#### Suku 3: \\(5x\\)\n\n- Ini bentuk \\(5x^{1}\\).  \n- Turunannya: \\(5 \\cdot 1 x^{1-1}=5\\).\n\n#### Suku 4: \\(-1\\)\n\n- Konstanta, jadi turunannya adalah \\(0\\).\n\n### 3. Jumlahkan hasil turunan\n\n\\[\nf'(x)= 9x^{2} \\;+\\; (-4x) \\;+\\; 5 \\;+\\; 0\n\\]\n\n### 4. Sederhanakan\n\n\\[\n\\boxed{f'(x)=9x^{2}-4x+5}\n\\]\n\n---\n\n## Ringkasan singkat\n\n- **Aturan utama:** Turunan dari \\(x^{n}\\) adalah \\(n x^{n-1}\\).  \n- **Koefisien tetap** tetap dipertahankan (dikalikan).  \n- **Jumlah turunan** dari fungsi adalah jumlah turunan masing‑masing suku.  \n- Untuk \\(f(x)=3x^{3}-2x^{2}+5x-1\\) diperoleh \\(f'(x)=9x^{2}-4x+5\\).\n\n---\n\n### Catatan tambahan (opsional)\n\n- **Makna geometris:** \\(f'(x)\\) menunjukkan kemiringan (gradient) grafik \\(y=f(x)\\) pada titik \\(x\\).  \n- **Jika dibutuhkan:** Bisa menghitung nilai turunan pada titik tertentu dengan mengganti \\(x\\) dengan angka tersebut. Misalnya, di \\(x=1\\): \\(f'(1)=9(1)^{2}-4(1)+5=9-4+5=10\\).\n\nSemoga langkah‑langkah ini mudah dipahami! Jika ada bagian yang masih kurang jelas, beri tahu saya, saya siap menjelaskan lebih detail. 🚀",
+        "latency_ms": 4507,
+        "error": null,
+        "auto_eval": {
+          "composite_auto_score": 0.75,
+          "accuracy": {
+            "score": 0.5,
+            "method": "keyword_match",
+            "reasoning": "Key concepts: 0/3 matched. Numeric values: 3/3 matched."
+          },
+          "structure": {
+            "score": 1.0,
+            "method": "structure_check",
+            "reasoning": {
+              "has_numbered_steps": true,
+              "has_bullet_points": true,
+              "has_causal_connectors": true,
+              "multi_sentence": true,
+              "has_formula_or_equation": true
+            }
+          },
+          "length": {
+            "score": 1.0,
+            "method": "length_check",
+            "word_count": 323,
+            "target_range": "150-400 words",
+            "reasoning": "323 words for SMA level (target: 150-400)"
+          }
+        },
+        "llm_judge": {
+          "judge_model": "gpt-oss-120b",
+          "reasoning_quality": {
+            "score_raw": 5,
+            "score_normalized": 1.0,
+            "reasoning": "Menjelaskan langkah demi langkah dengan aturan turunan, menghitung tiap suku, dan menyederhanakan hasil secara tepat."
+          },
+          "level_appropriateness": {
+            "score_raw": 5,
+            "score_normalized": 1.0,
+            "reasoning": "Bahasa sederhana, terstruktur, dan cocok untuk siswa SMA; tidak ada istilah yang membingungkan."
+          },
+          "hallucination_risk": {
+            "level": "low",
+            "score": 1.0,
+            "reasoning": "Semua pernyataan sesuai dengan solusi yang benar dan tidak ada klaim yang tidak dapat diverifikasi."
+          },
+          "composite_judge_score": 1.0,
+          "raw_judge_response": "{\n  \"reasoning_quality\": {\n    \"score\": 5,\n    \"reasoning\": \"Menjelaskan langkah demi langkah dengan aturan turunan, menghitung tiap suku, dan menyederhanakan hasil secara tepat.\"\n  },\n  \"level_appropriateness\": {\n    \"score\": 5,\n    \"reasoning\": \"Bahasa sederhana, terstruktur, dan cocok untuk siswa SMA; tidak ada istilah yang membingungkan.\"\n  },\n  \"hallucination_risk\": {\n    \"level\": \"low\",\n    \"reasoning\": \"Semua pernyataan sesuai dengan solusi yang benar dan tidak ada klaim yang tidak dapat diverifikasi.\"\n  }\n}",
+          "parse_error": null
+        }
+      }
+    ],
+    "evaluated_at": "20260606_124828",
+    "pipeline_version": "v2_langchain"
+  }
+]

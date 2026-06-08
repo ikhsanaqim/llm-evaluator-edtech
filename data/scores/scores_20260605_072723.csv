@@ -1,9 +1,0 @@
-question_id,subject,level,grade,model_key,composite_auto_score,accuracy_score,structure_score,length_score,word_count,latency_ms,error
-MTK-SD-001,Matematika,SD,Kelas 5,gpt-oss-120b,1.0,1.0,1.0,1.0,110,7354,
-MTK-SD-001,Matematika,SD,Kelas 5,gemma-4-31b,1.0,1.0,1.0,1.0,156,13104,
-MTK-SD-001,Matematika,SD,Kelas 5,nemotron-super,0.88,1.0,0.6,1.0,76,6175,
-MTK-SD-001,Matematika,SD,Kelas 5,nemotron-nano,1.0,1.0,1.0,1.0,167,3678,
-MTK-SD-002,Matematika,SD,Kelas 4,gpt-oss-120b,0.94,1.0,0.8,1.0,50,4505,
-MTK-SD-002,Matematika,SD,Kelas 4,gemma-4-31b,0.775,0.67,0.8,1.0,80,4075,
-MTK-SD-002,Matematika,SD,Kelas 4,nemotron-super,0.603,0.67,0.6,0.44,22,12744,
-MTK-SD-002,Matematika,SD,Kelas 4,nemotron-nano,0.835,0.67,1.0,1.0,53,2084,

@@ -1,0 +1,81 @@
+question_id,subject,level,grade,model_key,composite_auto_score,accuracy_score,structure_score,length_score,word_count,latency_ms,error
+MTK-SD-001,Matematika,SD,Kelas 5,gpt-oss-120b,1.0,1.0,1.0,1.0,118,8719,
+MTK-SD-001,Matematika,SD,Kelas 5,gemma-4-31b,1.0,1.0,1.0,1.0,170,11844,
+MTK-SD-001,Matematika,SD,Kelas 5,nemotron-super,0.88,1.0,0.6,1.0,80,20306,
+MTK-SD-001,Matematika,SD,Kelas 5,nemotron-nano,1.0,1.0,1.0,1.0,140,2634,
+MTK-SD-002,Matematika,SD,Kelas 4,gpt-oss-120b,0.819,0.67,1.0,0.92,46,6518,
+MTK-SD-002,Matematika,SD,Kelas 4,gemma-4-31b,0.775,0.67,0.8,1.0,72,4701,
+MTK-SD-002,Matematika,SD,Kelas 4,nemotron-super,0.639,0.67,0.6,0.62,31,4582,
+MTK-SD-002,Matematika,SD,Kelas 4,nemotron-nano,0.835,0.67,1.0,1.0,64,2134,
+MTK-SMP-001,Matematika,SMP,Kelas 7,gpt-oss-120b,0.587,0.33,1.0,0.61,61,6525,
+MTK-SMP-001,Matematika,SMP,Kelas 7,gemma-4-31b,0.605,0.33,0.8,1.0,168,5683,
+MTK-SMP-001,Matematika,SMP,Kelas 7,nemotron-super,0.529,0.33,0.8,0.62,62,22298,
+MTK-SMP-001,Matematika,SMP,Kelas 7,nemotron-nano,0.665,0.33,1.0,1.0,113,1934,
+MTK-SMP-002,Matematika,SMP,Kelas 8,gpt-oss-120b,0.757,0.67,0.8,0.91,91,9850,
+MTK-SMP-002,Matematika,SMP,Kelas 8,gemma-4-31b,1.0,1.0,1.0,1.0,212,9147,
+MTK-SMP-002,Matematika,SMP,Kelas 8,nemotron-super,0.705,0.67,0.8,0.65,65,5283,
+MTK-SMP-002,Matematika,SMP,Kelas 8,nemotron-nano,0.665,0.33,1.0,1.0,142,3211,
+MTK-SMA-001,Matematika,SMA,Kelas 10,gpt-oss-120b,0.648,0.5,0.8,0.79,119,10791,
+MTK-SMA-001,Matematika,SMA,Kelas 10,gemma-4-31b,0.75,0.5,1.0,1.0,238,7820,
+MTK-SMA-001,Matematika,SMA,Kelas 10,nemotron-super,0.821,0.83,1.0,0.53,79,36451,
+MTK-SMA-001,Matematika,SMA,Kelas 10,nemotron-nano,0.75,0.5,1.0,1.0,323,4507,
+MTK-SMA-002,Matematika,SMA,Kelas 11,gpt-oss-120b,0.823,0.75,1.0,0.74,111,13298,
+MTK-SMA-002,Matematika,SMA,Kelas 11,gemma-4-31b,0.805,0.75,0.8,0.95,143,13172,
+MTK-SMA-002,Matematika,SMA,Kelas 11,nemotron-super,0.634,0.5,1.0,0.42,63,30855,
+MTK-SMA-002,Matematika,SMA,Kelas 11,nemotron-nano,0.809,0.75,1.0,0.67,101,2552,
+IPA-SD-001,IPA,SD,Kelas 4,gpt-oss-120b,1.0,1.0,1.0,1.0,99,6720,
+IPA-SD-001,IPA,SD,Kelas 4,gemma-4-31b,0.998,1.0,1.0,0.99,201,8452,
+IPA-SD-001,IPA,SD,Kelas 4,nemotron-super,0.88,1.0,0.6,1.0,89,3640,
+IPA-SD-001,IPA,SD,Kelas 4,nemotron-nano,0.94,1.0,0.8,1.0,141,3023,
+IPA-SD-002,IPA,SD,Kelas 5,gpt-oss-120b,0.862,0.8,1.0,0.81,237,19997,
+IPA-SD-002,IPA,SD,Kelas 5,gemma-4-31b,0.808,0.8,1.0,0.54,292,14189,
+IPA-SD-002,IPA,SD,Kelas 5,nemotron-super,0.888,0.8,1.0,0.94,211,27395,
+IPA-SD-002,IPA,SD,Kelas 5,nemotron-nano,0.64,0.8,0.8,0.0,433,4301,
+IPA-SMP-001,IPA,SMP,Kelas 7,gpt-oss-120b,0.94,1.0,0.8,1.0,215,12921,
+IPA-SMP-001,IPA,SMP,Kelas 7,gemma-4-31b,0.96,1.0,1.0,0.8,359,10781,
+IPA-SMP-001,IPA,SMP,Kelas 7,nemotron-super,0.84,0.8,0.8,1.0,265,9636,
+IPA-SMP-001,IPA,SMP,Kelas 7,nemotron-nano,1.0,1.0,1.0,1.0,288,4503,
+IPA-SMP-002,IPA,SMP,Kelas 8,gpt-oss-120b,0.922,1.0,0.8,0.91,91,10632,
+IPA-SMP-002,IPA,SMP,Kelas 8,gemma-4-31b,1.0,1.0,1.0,1.0,170,8603,
+IPA-SMP-002,IPA,SMP,Kelas 8,nemotron-super,0.792,1.0,0.6,0.56,56,9825,
+IPA-SMP-002,IPA,SMP,Kelas 8,nemotron-nano,1.0,1.0,1.0,1.0,160,2256,
+IPA-SMA-001,IPA,SMA,Kelas 10,gpt-oss-120b,0.915,0.83,1.0,1.0,398,23046,
+IPA-SMA-001,IPA,SMA,Kelas 10,gemma-4-31b,0.98,1.0,1.0,0.9,439,14678,
+IPA-SMA-001,IPA,SMA,Kelas 10,nemotron-super,0.915,0.83,1.0,1.0,384,42072,
+IPA-SMA-001,IPA,SMA,Kelas 10,nemotron-nano,0.907,0.83,1.0,0.96,415,9047,
+IPA-SMA-002,IPA,SMA,Kelas 11,gpt-oss-120b,1.0,1.0,1.0,1.0,226,13702,
+IPA-SMA-002,IPA,SMA,Kelas 11,gemma-4-31b,0.875,0.75,1.0,1.0,362,11668,
+IPA-SMA-002,IPA,SMA,Kelas 11,nemotron-super,0.75,0.5,1.0,1.0,268,16097,
+IPA-SMA-002,IPA,SMA,Kelas 11,nemotron-nano,0.75,0.5,1.0,1.0,371,6718,
+BIN-SD-001,Bahasa Indonesia,SD,Kelas 4,gpt-oss-120b,0.755,0.75,0.6,1.0,174,14992,
+BIN-SD-001,Bahasa Indonesia,SD,Kelas 4,gemma-4-31b,0.855,0.75,1.0,0.9,221,12962,
+BIN-SD-001,Bahasa Indonesia,SD,Kelas 4,nemotron-super,0.868,1.0,0.6,0.94,211,12336,
+BIN-SD-001,Bahasa Indonesia,SD,Kelas 4,nemotron-nano,0.679,0.75,0.6,0.62,275,5099,
+BIN-SD-002,Bahasa Indonesia,SD,Kelas 5,gpt-oss-120b,0.729,0.75,0.8,0.57,285,19771,
+BIN-SD-002,Bahasa Indonesia,SD,Kelas 5,gemma-4-31b,0.844,1.0,1.0,0.22,355,15068,
+BIN-SD-002,Bahasa Indonesia,SD,Kelas 5,nemotron-super,0.692,0.5,1.0,0.71,258,40079,
+BIN-SD-002,Bahasa Indonesia,SD,Kelas 5,nemotron-nano,0.425,0.25,1.0,0.0,431,5620,
+BIN-SMP-001,Bahasa Indonesia,SMP,Kelas 7,gpt-oss-120b,0.654,0.5,1.0,0.52,445,30204,
+BIN-SMP-001,Bahasa Indonesia,SMP,Kelas 7,gemma-4-31b,0.894,1.0,1.0,0.47,460,17334,
+BIN-SMP-001,Bahasa Indonesia,SMP,Kelas 7,nemotron-super,0.0,0.0,0.0,0.0,0,,"Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1780790400000'}, 'provider_name': None}}, 'user_id': 'user_3EgwSLoqlxLwBdNMFC2C1tq45FH'}"
+BIN-SMP-001,Bahasa Indonesia,SMP,Kelas 7,nemotron-nano,0.0,0.0,0.0,0.0,0,,"Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1780790400000'}, 'provider_name': None}}, 'user_id': 'user_3EgwSLoqlxLwBdNMFC2C1tq45FH'}"
+BIN-SMP-002,Bahasa Indonesia,SMP,Kelas 8,gpt-oss-120b,0.998,1.0,1.0,0.99,304,20071,
+BIN-SMP-002,Bahasa Indonesia,SMP,Kelas 8,gemma-4-31b,0.0,0.0,0.0,0.0,0,,"Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1780790400000'}, 'provider_name': None, 'previous_errors': [{'code': 429, 'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day'}]}}, 'user_id': 'user_3EgwSLoqlxLwBdNMFC2C1tq45FH'}"
+BIN-SMP-002,Bahasa Indonesia,SMP,Kelas 8,nemotron-super,0.0,0.0,0.0,0.0,0,,"Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1780790400000'}, 'provider_name': None}}, 'user_id': 'user_3EgwSLoqlxLwBdNMFC2C1tq45FH'}"
+BIN-SMP-002,Bahasa Indonesia,SMP,Kelas 8,nemotron-nano,0.0,0.0,0.0,0.0,0,,"Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1780790400000'}, 'provider_name': None}}, 'user_id': 'user_3EgwSLoqlxLwBdNMFC2C1tq45FH'}"
+BIN-SMA-001,Bahasa Indonesia,SMA,Kelas 10,gpt-oss-120b,0.495,0.25,1.0,0.35,659,36047,
+BIN-SMA-001,Bahasa Indonesia,SMA,Kelas 10,gemma-4-31b,0.0,0.0,0.0,0.0,0,,"Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1780790400000'}, 'provider_name': None, 'previous_errors': [{'code': 429, 'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day'}]}}, 'user_id': 'user_3EgwSLoqlxLwBdNMFC2C1tq45FH'}"
+BIN-SMA-001,Bahasa Indonesia,SMA,Kelas 10,nemotron-super,0.0,0.0,0.0,0.0,0,,"Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1780790400000'}, 'provider_name': None}}, 'user_id': 'user_3EgwSLoqlxLwBdNMFC2C1tq45FH'}"
+BIN-SMA-001,Bahasa Indonesia,SMA,Kelas 10,nemotron-nano,0.0,0.0,0.0,0.0,0,,"Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1780790400000'}, 'provider_name': None}}, 'user_id': 'user_3EgwSLoqlxLwBdNMFC2C1tq45FH'}"
+BIN-SMA-002,Bahasa Indonesia,SMA,Kelas 11,gpt-oss-120b,0.793,0.75,1.0,0.59,564,29779,
+BIN-SMA-002,Bahasa Indonesia,SMA,Kelas 11,gemma-4-31b,0.0,0.0,0.0,0.0,0,,"Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1780790400000'}, 'provider_name': None, 'previous_errors': [{'code': 429, 'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day'}]}}, 'user_id': 'user_3EgwSLoqlxLwBdNMFC2C1tq45FH'}"
+BIN-SMA-002,Bahasa Indonesia,SMA,Kelas 11,nemotron-super,0.0,0.0,0.0,0.0,0,,"Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1780790400000'}, 'provider_name': None}}, 'user_id': 'user_3EgwSLoqlxLwBdNMFC2C1tq45FH'}"
+BIN-SMA-002,Bahasa Indonesia,SMA,Kelas 11,nemotron-nano,0.0,0.0,0.0,0.0,0,,"Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1780790400000'}, 'provider_name': None}}, 'user_id': 'user_3EgwSLoqlxLwBdNMFC2C1tq45FH'}"
+MTK-SMA-003,Matematika,SMA,Kelas 12,gpt-oss-120b,0.872,0.8,1.0,0.86,129,13081,
+MTK-SMA-003,Matematika,SMA,Kelas 12,gemma-4-31b,0.0,0.0,0.0,0.0,0,,"Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1780790400000'}, 'provider_name': None, 'previous_errors': [{'code': 429, 'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day'}]}}, 'user_id': 'user_3EgwSLoqlxLwBdNMFC2C1tq45FH'}"
+MTK-SMA-003,Matematika,SMA,Kelas 12,nemotron-super,0.0,0.0,0.0,0.0,0,,"Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1780790400000'}, 'provider_name': None}}, 'user_id': 'user_3EgwSLoqlxLwBdNMFC2C1tq45FH'}"
+MTK-SMA-003,Matematika,SMA,Kelas 12,nemotron-nano,0.0,0.0,0.0,0.0,0,,"Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1780790400000'}, 'provider_name': None}}, 'user_id': 'user_3EgwSLoqlxLwBdNMFC2C1tq45FH'}"
+IPA-SMA-003,IPA,SMA,Kelas 12,gpt-oss-120b,0.7,0.4,1.0,1.0,370,23380,
+IPA-SMA-003,IPA,SMA,Kelas 12,gemma-4-31b,0.0,0.0,0.0,0.0,0,,"Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1780790400000'}, 'provider_name': None, 'previous_errors': [{'code': 429, 'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day'}]}}, 'user_id': 'user_3EgwSLoqlxLwBdNMFC2C1tq45FH'}"
+IPA-SMA-003,IPA,SMA,Kelas 12,nemotron-super,0.0,0.0,0.0,0.0,0,,"Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1780790400000'}, 'provider_name': None}}, 'user_id': 'user_3EgwSLoqlxLwBdNMFC2C1tq45FH'}"
+IPA-SMA-003,IPA,SMA,Kelas 12,nemotron-nano,0.0,0.0,0.0,0.0,0,,"Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1780790400000'}, 'provider_name': None}}, 'user_id': 'user_3EgwSLoqlxLwBdNMFC2C1tq45FH'}"

@@ -1,9 +1,0 @@
-question_id,subject,level,grade,model_key,composite_auto_score,accuracy_score,structure_score,length_score,word_count,latency_ms,error
-MTK-SD-001,Matematika,SD,Kelas 5,mistral-7b,0.0,0.0,0.0,0.0,0,,"Error code: 404 - {'error': {'message': 'No endpoints found for mistralai/mistral-7b-instruct:free.', 'code': 404}, 'user_id': 'user_3EgwSLoqlxLwBdNMFC2C1tq45FH'}"
-MTK-SD-001,Matematika,SD,Kelas 5,gemma-2-9b,0.0,0.0,0.0,0.0,0,,"Error code: 404 - {'error': {'message': 'No endpoints found for google/gemma-2-9b-it:free.', 'code': 404}, 'user_id': 'user_3EgwSLoqlxLwBdNMFC2C1tq45FH'}"
-MTK-SD-001,Matematika,SD,Kelas 5,llama-3-8b,0.0,0.0,0.0,0.0,0,,"Error code: 404 - {'error': {'message': 'No endpoints found for meta-llama/llama-3-8b-instruct:free.', 'code': 404}, 'user_id': 'user_3EgwSLoqlxLwBdNMFC2C1tq45FH'}"
-MTK-SD-001,Matematika,SD,Kelas 5,qwen-2.5-7b,0.0,0.0,0.0,0.0,0,,"Error code: 404 - {'error': {'message': 'No endpoints found for qwen/qwen-2.5-7b-instruct:free.', 'code': 404}, 'user_id': 'user_3EgwSLoqlxLwBdNMFC2C1tq45FH'}"
-MTK-SD-002,Matematika,SD,Kelas 4,mistral-7b,0.0,0.0,0.0,0.0,0,,"Error code: 404 - {'error': {'message': 'No endpoints found for mistralai/mistral-7b-instruct:free.', 'code': 404}, 'user_id': 'user_3EgwSLoqlxLwBdNMFC2C1tq45FH'}"
-MTK-SD-002,Matematika,SD,Kelas 4,gemma-2-9b,0.0,0.0,0.0,0.0,0,,"Error code: 404 - {'error': {'message': 'No endpoints found for google/gemma-2-9b-it:free.', 'code': 404}, 'user_id': 'user_3EgwSLoqlxLwBdNMFC2C1tq45FH'}"
-MTK-SD-002,Matematika,SD,Kelas 4,llama-3-8b,0.0,0.0,0.0,0.0,0,,"Error code: 404 - {'error': {'message': 'No endpoints found for meta-llama/llama-3-8b-instruct:free.', 'code': 404}, 'user_id': 'user_3EgwSLoqlxLwBdNMFC2C1tq45FH'}"
-MTK-SD-002,Matematika,SD,Kelas 4,qwen-2.5-7b,0.0,0.0,0.0,0.0,0,,"Error code: 404 - {'error': {'message': 'No endpoints found for qwen/qwen-2.5-7b-instruct:free.', 'code': 404}, 'user_id': 'user_3EgwSLoqlxLwBdNMFC2C1tq45FH'}"
